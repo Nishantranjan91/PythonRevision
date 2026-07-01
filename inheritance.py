@@ -7,8 +7,10 @@ class Animal:
 obj1 = Animal("Lion",12)
 
 class Human(Animal):
-        pass
+    def __init__(self, name, age,number,group):
+          super().__init__(name, age) 
+          self.number = number      
 
 obj = Animal("Lion",12)
-obj2 = ("Nishant",27)
+obj2 = ("Nishant",27,1212454515,"B+")
       
