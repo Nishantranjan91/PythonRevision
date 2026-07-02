@@ -17,4 +17,15 @@ obj = Shopping(['apple',"milk","bread"])
 obj2 = Shopping(["apple","banana"])    
 print(len(obj))
 print(len(obj2))
+
+class Numbers:
+    def __init__(self,number):
+        self.number = number
+    def __add__(self,custom):
+        return self.number + custom.number   
+   
+
+obj1 = Numbers(12)
+obj2 = Numbers(34)   
+print(obj1 + obj2)         
         
