@@ -7,15 +7,28 @@
 
 
 
+# class Animal:
+#     def speak(self):
+#         print("hello I roar")
+# class Bird:
+#     name = "sparrow"
+#     def speak(self):
+#         print("hello I tweet")
+# obj = Animal()
+# obj2 = Bird()
+
+# obj.speak()
+# obj2.speak()
+
+
+
 class Animal:
+    name = "lion"
     def speak(self):
         print("hello I roar")
-class Bird:
-    name = "sparrow"
+class Human(Animal):
+    name = "Nishant Ranjan"
     def speak(self):
         print("hello I tweet")
-obj = Animal()
-obj2 = Bird()
-
-obj.speak()
-obj2.speak()
+obj = Human()
+obj.speak()                 
