@@ -12,5 +12,14 @@
 
 
 
-add = lambda x,y : x+y
-print(add(12,13))
+# add = lambda x,y : x+y
+# print(add(12,13))
+
+
+
+
+a = [1,2,3,4,5]
+l = []
+for i in a:
+    l.append(i**2)
+print(l)    
