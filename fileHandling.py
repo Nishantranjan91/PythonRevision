@@ -1,5 +1,5 @@
-# file = open("append.py")
-# print(file.read())
+file = open("append.py")
+print(file.read())
 
 
 
@@ -11,5 +11,5 @@
 
 
 
-with open("append.py",'r') as fs:
-    print(fs.read())
+# with open("append.py",'r') as fs:
+#     print(fs.read())
