@@ -22,6 +22,13 @@
 
 
 
+# s = "nishant ranjan"
+# for i in range(len(s)):
+#     print(s[i])
+
+
+
+
 s = "nishant ranjan"
 for i in range(len(s)):
-    print(s[i])
+    print(s[i],2)
