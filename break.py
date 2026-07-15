@@ -7,10 +7,18 @@
 
 
 
-for i in range(10,20):
-    print(i)
-    if i==5:
-        break
+# for i in range(10,20):
+#     print(i)
+#     if i==5:
+#         break
+
+
+
+
+    for  i in range(15,25):
+        print(i)
+        if i== 30:
+            break
 
 
 
