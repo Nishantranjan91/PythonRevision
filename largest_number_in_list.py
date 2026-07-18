@@ -1,8 +1,20 @@
-a = [1,45,23,89,45,90,12,36,82]
+# a = [1,45,23,89,45,90,12,36,82]
+# max = a[0]
+# index = 0
+# for i in range(len(a)):
+#     if a[i] > max:
+#         max = a[i]
+#         index = i   
+# print(f"your max element is {max} at index {index}")       
+# 
+# 
+# 
+# 
+a = [1,45,23,89,45,90,12,36,82,90,150]
 max = a[0]
 index = 0
 for i in range(len(a)):
     if a[i] > max:
         max = a[i]
         index = i   
-print(f"your max element is {max} at index {index}")        
+print(f"your max element is {max} at index {index}")  
