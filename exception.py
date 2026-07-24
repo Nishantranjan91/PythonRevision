@@ -26,11 +26,11 @@ a = int(input("provide your numbers:-"))
 b = int(input("provide your numner:-"))
 c = int(input("provide your numbers:-"))
 
-try:
-    print(a/b)
-except Exception as err:
-    print(f"sorry an error occured as {err}") 
-print(a+b-c)       
+# try:
+#     print(a/b)
+# except Exception as err:
+#     print(f"sorry an error occured as {err}") 
+# print(a+b-c)       
 
 
 
