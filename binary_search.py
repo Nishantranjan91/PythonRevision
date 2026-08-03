@@ -1,16 +1,48 @@
-a = [12,14,16,23,25,34,37,45,48,59,68,70]
-search = 48
+# a = [12,14,16,23,25,34,37,45,48,59,68,70]
+# search = 48
+# start = 0
+# last = len(a)-1
+# mid = (start+last)//2
+# while start <= last:
+#     if [mid] == search:
+#         print(f"element found at index {mid}")
+#         break
+#     elif a[mid] < search:
+#         start = mid + 1 
+#         mid = (start+last)//2
+#     elif    a[mid] > search:
+#         last = mid - 1
+# else:
+#     print("sorry no such elements are exist")    
+# 
+# 
+# 
+# 
+# a = [12, 14, 16, 23, 25, 34, 37, 45, 48, 59, 68, 70]
+
+
+
+
+a = [12, 14, 16, 23, 25, 34, 37, 45, 48, 59, 68, 70]
+
+search = 50
+
 start = 0
-last = len(a)-1
-mid = (start+last)//2
+last = len(a) - 1
+
 while start <= last:
-    if [mid] == search:
-        print(f"element found at index {mid}")
+
+    mid = (start + last) // 2
+
+    if a[mid] == search:
+        print(f"Element found at index {mid}")
         break
+
     elif a[mid] < search:
-        start = mid + 1 
-        mid = (start+last)//2
-    elif    a[mid] > search:
+        start = mid + 1
+
+    else:
         last = mid - 1
+
 else:
-    print("sorry no such elements are exist")            
+    print("Sorry, no such element exists.")
