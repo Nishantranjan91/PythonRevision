@@ -5,5 +5,9 @@
 # print(f"My name is {Name}")
 
 
-s = input()
-print(s[::-1])
+# s = input()
+# print(s[::-1])
+
+
+a = "123".isdigit()
+print(a)
