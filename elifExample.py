@@ -28,9 +28,18 @@
 
 
 #Example 4
-name = input("please tell your name :")
-age = int(input("please tell your age:"))
-if age >= 18:
-    print(f"{name} you can vote")
+# name = input("please tell your name :")
+# age = int(input("please tell your age:"))
+# if age >= 18:
+#     print(f"{name} you can vote")
+# else:
+#     print(f"{name} you can vote after {18-age} years later")    
+
+
+
+#Example 5
+char = input("please tell me your character:")
+if char in "aeiouAEIOU":
+    print("given character ia vowel")
 else:
-    print(f"{name} you can vote after {18-age} years later")    
+    print("given character is cons")    
