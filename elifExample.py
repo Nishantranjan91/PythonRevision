@@ -9,8 +9,18 @@
         
 
 # Example 2
+# gen = input("please provide your gender in terms of m or f:")
+# if gen == 'm':
+#     print("hello sir how are you")
+# else:
+#     print("hello maam how are you")    
+
+
+# Example 3
 gen = input("please provide your gender in terms of m or f:")
-if gen == 'm':
+if gen == 'm' or gen == 'M':
     print("hello sir how are you")
+elif gen == 'f' or gen == 'F':
+    print("hello maam how are you")
 else:
-    print("hello maam how are you")    
+    print("the given character is wrong.")        
