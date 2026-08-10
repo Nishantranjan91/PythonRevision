@@ -10,13 +10,27 @@
 
 
 
-a = [12, 34, 56, 78, 45, 23, 67, 89, 10]
+# a = [12, 34, 56, 78, 45, 23, 67, 89, 10]
 
-search = 45
+# search = 45
+
+# for i in range(len(a)):
+#     if a[i] == search:
+#         print(f"Element found at index {i}")
+#         break
+# else:
+#     print("Sorry, no such element exists")
+
+
+
+
+a = [10, 45, 23, 67, 23, 89, 12, 23]
+
+search = 23
 
 for i in range(len(a)):
     if a[i] == search:
         print(f"Element found at index {i}")
         break
 else:
-    print("Sorry, no such element exists")
+    print("Element not found")
