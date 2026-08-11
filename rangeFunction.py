@@ -4,6 +4,6 @@
 
 
 
-a = range(1,15,2)
+a = range(35,4,-1)
 for i in a:
     print(i)
