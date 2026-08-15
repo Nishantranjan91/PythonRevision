@@ -12,6 +12,5 @@
 
 
 
-n = int(input("provide a number : "))
-total = 0
-for digit in str(n)
+
+
