@@ -26,4 +26,4 @@
 
 def addition(a,b):
     print(a+b)
-addition(b=15,a=20)    
+addition(b=15,a=20)    # if one variable is mentioned then other variable will must be mention
