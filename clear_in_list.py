@@ -1,3 +1,9 @@
+# a = [10,20,30,40]
+# a.clear()
+# print(a)
+
+
+
+
 a = [10,20,30,40]
-a.clear()
-print(a)
+print(a.count(10))
