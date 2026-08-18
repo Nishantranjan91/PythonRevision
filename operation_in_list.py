@@ -43,4 +43,8 @@ for i in range(len(a)):
         max = a[i]
         index2 = index
         index = i
+    elif a[i]>max2:
+        max2 = a[i]
+        index2 = i    
 print(f"max is {max} at {index} and max2 is {max2} at {index2}")        
+
