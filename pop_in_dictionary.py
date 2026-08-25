@@ -5,6 +5,13 @@
 
 
 
+# a = {10:100,20:200,30:300,40:400}
+# popped = a.pop(30)
+# print(popped)
+
+
+
+
 a = {10:100,20:200,30:300,40:400}
-popped = a.pop(30)
+popped = a.popitem()
 print(popped)
