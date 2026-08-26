@@ -20,25 +20,53 @@
 
 
 
-class Student:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Student:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-    def info(self):
-        print(f"My name is {self.name} and my age is {self.age}")
+#     def info(self):
+#         print(f"My name is {self.name} and my age is {self.age}")
+
+#     @classmethod
+#     def college(cls):
+#         print("This student belongs to ABC College")
+
+#     @staticmethod
+#     def hello():
+#         print("Hello I am a static method")
+
+
+# obj = Student("Rahul", 20)
+
+# obj.info()
+# obj.college()
+# obj.hello()
+
+
+
+
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def show(self):
+        print(f"Employee name is {self.name}")
+        print(f"Employee salary is {self.salary}")
 
     @classmethod
-    def college(cls):
-        print("This student belongs to ABC College")
+    def company(cls):
+        print("Employee works in ABC Company")
 
     @staticmethod
-    def hello():
-        print("Hello I am a static method")
+    def welcome():
+        print("Welcome to our company")
 
 
-obj = Student("Rahul", 20)
+obj = Employee("Amit", 50000)
 
-obj.info()
-obj.college()
-obj.hello()
+obj.show()
+obj.company()
+obj.welcome()
