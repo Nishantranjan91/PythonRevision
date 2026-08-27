@@ -5,5 +5,11 @@
 
 
 
-square = lambda a : a**2
-print(square(11))
+# square = lambda a : a**2
+# print(square(11))
+
+
+
+
+add = lambda x,y : x+y
+print(add(12,15))
