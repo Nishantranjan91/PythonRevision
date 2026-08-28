@@ -53,7 +53,15 @@
 
 
 #zip
+# name = ["Nishant","Santosh","Vivek","Prabhakar"]
+# ages = [27,24,25,28]
+# comb = zip(name,ages)
+# print(comb)
+
+
+
+
 name = ["Nishant","Santosh","Vivek","Prabhakar"]
 ages = [27,24,25,28]
 comb = zip(name,ages)
-print(comb)
+print(list(comb))
