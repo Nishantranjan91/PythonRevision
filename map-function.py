@@ -45,6 +45,15 @@
 
 
 
-a = [1,2,3,4,5,6,8,9,10]
-l = filter(lambda x : x%2 == 0,a)
-print(list(l))
+# a = [1,2,3,4,5,6,8,9,10]
+# l = filter(lambda x : x%2 == 0,a)
+# print(list(l))
+
+
+
+
+#zip
+name = ["Nishant","Santosh","Vivek","Prabhakar"]
+ages = [27,24,25,28]
+comb = zip(name,ages)
+print(comb)
