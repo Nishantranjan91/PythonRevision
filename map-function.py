@@ -7,6 +7,15 @@
 
 
 
+# a = [1,2,3,4,5]
+# l = map(lambda x :x**2,a)
+# print(list(l))
+
+
+
+
+def square(x):
+    return x**2
 a = [1,2,3,4,5]
-l = map(lambda x :x**2,a)
+l = map(square,a)
 print(list(l))
