@@ -35,9 +35,16 @@
 
 
 
+# a = [1,2,3,4,5,6,8,9,10]
+# l = []
+# for i in a:
+#     if i%2 != 0:
+#         l.append(i)
+# print(l)        
+
+
+
+
 a = [1,2,3,4,5,6,8,9,10]
-l = []
-for i in a:
-    if i%2 != 0:
-        l.append(i)
-print(l)        
+l = filter(lambda x : x%2 == 0,a)
+print(list(l))
