@@ -6,19 +6,19 @@
 
 
 
-def my_generator():
-    for i in range(5):
-        print(i)
-my_generator()
-
-
-
-
 # def my_generator():
 #     for i in range(5):
-#         yield i
-# gen = my_generator()
-# print(next(gen))      
+#         print(i)
+# my_generator()
+
+
+
+
+def my_generator():
+    for i in range(5):
+        yield i
+gen = my_generator()
+print(next(gen))      
 
 
 
