@@ -1,21 +1,21 @@
-def say_hello():
-    print("hello")
-say_hello()    
-
-
-
-
-# def my_decorator(func):
-#     def wrapper():
-#         print("hello I will print before")
-#         func()  
-#         print("hello I will print after")
-#     return wrapper
-
-# @my_decorator
 # def say_hello():
 #     print("hello")
-# say_hello()
+# say_hello()    
+
+
+
+
+def my_decorator(func):
+    def wrapper():
+        print("hello I will print before")
+        func()  
+        print("hello I will print after")
+    return wrapper
+
+@my_decorator
+def say_hello():
+    print("hello")
+say_hello()
 
 
 
