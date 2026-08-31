@@ -32,6 +32,6 @@ def decorate(func):
 
 
 
-# @decorate
-# def addition(a,b):
-#     print(a+b)
+@decorate
+def addition(a,b):
+    print(a+b)
