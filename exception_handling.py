@@ -11,16 +11,31 @@
 
 
 
-a = int(input("please provide the first number:"))
-b = int(input("please provide the second number:"))
+# a = int(input("please provide the first number:"))
+# b = int(input("please provide the second number:"))
+
+# try:
+#     print(a/b)
+
+# except ZeroDivisionError as err:
+#     print(f"sorry an error occured as {err}")    
+# else:
+#     print("there was no errors")    
+# finally:
+#     print("I will execute no matter what")    
+# print(a+b)
+
+
+
+#raise
 
 try:
-    print(a/b)
+    age = int(input("Enter age: "))
 
-except ZeroDivisionError as err:
-    print(f"sorry an error occured as {err}")    
-else:
-    print("there was no errors")    
-finally:
-    print("I will execute no matter what")    
-print(a+b)
+    if age < 18:
+        raise Exception("You must be 18+")
+
+    print("Access granted")
+
+except Exception as e:
+    print("Error:", e)
