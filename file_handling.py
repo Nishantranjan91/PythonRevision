@@ -1,12 +1,12 @@
 # Read a file -
-# file = open("filter.py")
-# print(file.read())
-
-
-
-
-file = open(r"C:\Users\HP\Downloads\PostgreSQL(class-10).pdf.main.py")
+file = open("filter.py")
 print(file.read())
+
+
+
+
+# file = open(r"C:\Users\HP\Downloads\PostgreSQL(class-10).pdf.main.py")
+# print(file.read())
 
 
 
