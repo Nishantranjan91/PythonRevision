@@ -6,5 +6,5 @@ print(a+b)
 
 def addition(a,b):
     print(a+b)
-addition(11,29)
-# addition(22,23)    
+# addition(11,29)
+addition(22,23)    
