@@ -7,7 +7,17 @@
 
 
 
-class Factory:
+class Student:
     def __init__(self):
-        print("It is raining cats and dogs")
-Factory()        
+        print("Constructor called")
+
+
+s1 = Student()
+
+
+
+
+# class Factory:
+#     def __init__(self):
+#         print("It is raining cats and dogs")
+# Factory()        
