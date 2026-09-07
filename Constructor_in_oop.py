@@ -75,21 +75,38 @@
 
 
 # Agar user value provide na kare, to default value use ho sakti hai.
-class Student:
-    def __init__(self, name="Unknown", age=18):
-        self.name = name
-        self.age = age
+# class Student:
+#     def __init__(self, name="Unknown", age=18):
+#         self.name = name
+#         self.age = age
 
-    def display(self):
-        print("Name:", self.name)
-        print("Age:", self.age)
+#     def display(self):
+#         print("Name:", self.name)
+#         print("Age:", self.age)
 
 
-s1 = Student()
-s2 = Student("Rahul", 21)
+# s1 = Student()
+# s2 = Student("Rahul", 21)
 
-s1.display()
-s2.display()
+# s1.display()
+# s2.display()
+
+
+
+
+# Constructor mein values lekar calculation bhi kar sakte hain
+class Rectangle:
+    def __init__(self, length, breadth):
+        self.length = length
+        self.breadth = breadth
+
+    def area(self):
+        return self.length * self.breadth
+
+
+r1 = Rectangle(10, 5)
+
+print("Area =", r1.area())
 
 
 
