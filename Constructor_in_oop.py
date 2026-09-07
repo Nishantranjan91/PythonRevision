@@ -18,18 +18,41 @@
 
 
 # Constructor ke through object ko data de sakte hain
+
+# class Student:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+#     def display(self):
+#         print("Name:", self.name)
+#         print("Age:", self.age)
+
+
+# s1 = Student("Rahul", 21)
+# s1.display()
+
+
+
+
+
+# Ek hi class se multiple objects bana sakte hain
 class Student:
-    def __init__(self, name, age):
+    def __init__(self, name, marks):
         self.name = name
-        self.age = age
+        self.marks = marks
 
     def display(self):
-        print("Name:", self.name)
-        print("Age:", self.age)
+        print(self.name, self.marks)
 
 
-s1 = Student("Rahul", 21)
+s1 = Student("Rahul", 85)
+s2 = Student("Nidhi", 90)
+s3 = Student("Aman", 78)
+
 s1.display()
+s2.display()
+s3.display()
 
 
 
