@@ -7,12 +7,29 @@
 
 
 
+# class Student:
+#     def __init__(self):
+#         print("Constructor called")
+
+
+# s1 = Student()
+
+
+
+
+# Constructor ke through object ko data de sakte hain
 class Student:
-    def __init__(self):
-        print("Constructor called")
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
 
 
-s1 = Student()
+s1 = Student("Rahul", 21)
+s1.display()
 
 
 
