@@ -57,19 +57,39 @@
 
 
 # Ye interview mein bhi common example hai.
-class Employee:
-    def __init__(self, name, salary):
+# class Employee:
+#     def __init__(self, name, salary):
+#         self.name = name
+#         self.salary = salary.p
+
+#     def display(self):
+#         print("Employee Name:", self.name)
+#         print("Salary:", self.salary)
+
+
+# e1 = Employee("Amit", 50000)
+# e1.display()
+
+
+
+
+
+# Agar user value provide na kare, to default value use ho sakti hai.
+class Student:
+    def __init__(self, name="Unknown", age=18):
         self.name = name
-        self.salary = salary
+        self.age = age
 
     def display(self):
-        print("Employee Name:", self.name)
-        print("Salary:", self.salary)
+        print("Name:", self.name)
+        print("Age:", self.age)
 
 
-e1 = Employee("Amit", 50000)
-e1.display()
+s1 = Student()
+s2 = Student("Rahul", 21)
 
+s1.display()
+s2.display()
 
 
 
