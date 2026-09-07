@@ -37,22 +37,38 @@
 
 
 # Ek hi class se multiple objects bana sakte hain
-class Student:
-    def __init__(self, name, marks):
+# class Student:
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+
+#     def display(self):
+#         print(self.name, self.marks)
+
+
+# s1 = Student("Rahul", 85)
+# s2 = Student("Nidhi", 90)
+# s3 = Student("Aman", 78)
+
+# s1.display()
+# s2.display()
+# s3.display()
+
+
+
+# Ye interview mein bhi common example hai.
+class Employee:
+    def __init__(self, name, salary):
         self.name = name
-        self.marks = marks
+        self.salary = salary
 
     def display(self):
-        print(self.name, self.marks)
+        print("Employee Name:", self.name)
+        print("Salary:", self.salary)
 
 
-s1 = Student("Rahul", 85)
-s2 = Student("Nidhi", 90)
-s3 = Student("Aman", 78)
-
-s1.display()
-s2.display()
-s3.display()
+e1 = Employee("Amit", 50000)
+e1.display()
 
 
 
