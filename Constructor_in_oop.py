@@ -110,7 +110,18 @@
 
 
 
+# class Factory:
+#     def __init__(self):
+#         print("It is raining cats and dogs")
+# Factory()        
+
+
+
+
 class Factory:
-    def __init__(self):
-        print("It is raining cats and dogs")
-Factory()        
+    def __init__(self,material,zips,pockets):
+        self.material = material
+        self.zips = zips
+        self.pockets = pockets
+obj = Factory("Leather",3,3)        
+print(obj.material)
