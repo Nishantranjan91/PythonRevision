@@ -95,22 +95,22 @@
 
 
 # Constructor mein values lekar calculation bhi kar sakte hain
-class Rectangle:
-    def __init__(self, length, breadth):
-        self.length = length
-        self.breadth = breadth
+# class Rectangle:
+#     def __init__(self, length, breadth):
+#         self.length = length
+#         self.breadth = breadth
 
-    def area(self):
-        return self.length * self.breadth
-
-
-r1 = Rectangle(10, 5)
-
-print("Area =", r1.area())
+#     def area(self):
+#         return self.length * self.breadth
 
 
+# r1 = Rectangle(10, 5)
 
-# class Factory:
-#     def __init__(self):
-#         print("It is raining cats and dogs")
-# Factory()        
+# print("Area =", r1.area())
+
+
+
+class Factory:
+    def __init__(self):
+        print("It is raining cats and dogs")
+Factory()        
