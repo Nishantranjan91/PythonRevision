@@ -135,4 +135,4 @@ class Factory:
         self.zips = zips
         self.pockets = pockets
 obj = Factory("Leather",3,3)        
-print(obj.zips)
+print(obj.pockets)
