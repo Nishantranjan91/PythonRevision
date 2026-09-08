@@ -118,10 +118,21 @@
 
 
 
+# class Factory:
+#     def __init__(self,material,zips,pockets):
+#         self.material = material
+#         self.zips = zips
+#         self.pockets = pockets
+# obj = Factory("Leather",3,3)        
+# print(obj.material)
+
+
+
+
 class Factory:
     def __init__(self,material,zips,pockets):
         self.material = material
         self.zips = zips
         self.pockets = pockets
 obj = Factory("Leather",3,3)        
-print(obj.material)
+print(obj.zips)
