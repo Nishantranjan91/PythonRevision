@@ -19,20 +19,35 @@
 
 
 # Create a class Rectangle with length and breadth. Calculate and display the area.
-class Rectangle:
-    def __init__(self, length, breadth):
-        self.length = length
-        self.breadth = breadth
+# class Rectangle:
+#     def __init__(self, length, breadth):
+#         self.length = length
+#         self.breadth = breadth
 
-    def area(self):
-        print("Area =", self.length * self.breadth)
+#     def area(self):
+#         print("Area =", self.length * self.breadth)
+
+
+# # Creating object
+# r1 = Rectangle(10, 5)
+
+# r1.area()
+
+
+
+
+# Create a class Employee with name and salary. Display employee details
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def display(self):
+        print("Employee Name:", self.name)
+        print("Salary:", self.salary)
 
 
 # Creating object
-r1 = Rectangle(10, 5)
+e1 = Employee("Amit", 30000)
 
-r1.area()
-
-
-
-
+e1.display()
