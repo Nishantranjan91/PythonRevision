@@ -52,16 +52,30 @@
 
 # e1.display()
 # Create a class Circle with radius. Calculate the area of the circle
-class Circle:
-    def __init__(self, radius):
-        self.radius = radius
+# class Circle:
+#     def __init__(self, radius):
+#         self.radius = radius
 
-    def area(self):
-        result = 3.14 * self.radius * self.radius
-        print("Area of Circle =", result)
+#     def area(self):
+#         result = 3.14 * self.radius * self.radius
+#         print("Area of Circle =", result)
+
+
+# # Creating object
+# c1 = Circle(5)
+
+# c1.area()
+# Create a class Calculator with two numbers and create a method to add them.
+class Calculator:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def add(self):
+        print("Sum =", self.a + self.b)
 
 
 # Creating object
-c1 = Circle(5)
+c1 = Calculator(10, 20)
 
-c1.area()
+c1.add()
