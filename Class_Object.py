@@ -37,17 +37,31 @@
 
 
 # Create a class Employee with name and salary. Display employee details
-class Employee:
-    def __init__(self, name, salary):
-        self.name = name
-        self.salary = salary
+# class Employee:
+#     def __init__(self, name, salary):
+#         self.name = name
+#         self.salary = salary
 
-    def display(self):
-        print("Employee Name:", self.name)
-        print("Salary:", self.salary)
+#     def display(self):
+#         print("Employee Name:", self.name)
+#         print("Salary:", self.salary)
+
+
+# # Creating object
+# e1 = Employee("Amit", 30000)
+
+# e1.display()
+# Create a class Circle with radius. Calculate the area of the circle
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        result = 3.14 * self.radius * self.radius
+        print("Area of Circle =", result)
 
 
 # Creating object
-e1 = Employee("Amit", 30000)
+c1 = Circle(5)
 
-e1.display()
+c1.area()
