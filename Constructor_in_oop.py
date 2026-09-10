@@ -134,5 +134,6 @@ class Factory:
         self.material = material
         self.zips = zips
         self.pockets = pockets
-obj = Factory("Leather",3,3)        
-print(obj.pockets)
+reebok = Factory("Leather",3,3)  
+campus = Factory("nylon",2,2)      
+print(reebok.material)
