@@ -138,4 +138,4 @@ class Factory:
         print(self.material,self.pockets,self.zips)    
 reebok = Factory("Leather",3,3)  
 campus = Factory("nylon",2,2)      
-campus.showdetails()
+reebok.showdetails()
