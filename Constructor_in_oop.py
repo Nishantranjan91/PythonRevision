@@ -136,4 +136,4 @@ class Factory:
         self.pockets = pockets
 reebok = Factory("Leather",3,3)  
 campus = Factory("nylon",2,2)      
-print(reebok.material)
+print(campus.material)
