@@ -51,16 +51,33 @@
 
 
 
-class Mobile:
-    def __init__(self, brand, price):
-        self.brand = brand       # Attribute
-        self.price = price       # Attribute
+# class Mobile:
+#     def __init__(self, brand, price):
+#         self.brand = brand       # Attribute
+#         self.price = price       # Attribute
 
-    def call(self):              # Method
-        print("Calling...")
+#     def call(self):              # Method
+#         print("Calling...")
 
-phone = Mobile("Samsung", 20000)
+# phone = Mobile("Samsung", 20000)
 
-print(phone.brand)
-print(phone.price)
-phone.call()
+# print(phone.brand)
+# print(phone.price)
+# phone.call()
+
+
+
+
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name         # Attribute
+        self.breed = breed       # Attribute
+
+    def bark(self):              # Method
+        print(self.name, "says Woof!")
+
+dog1 = Dog("Tommy", "Labrador")
+
+print(dog1.name)
+print(dog1.breed)
+dog1.bark()
