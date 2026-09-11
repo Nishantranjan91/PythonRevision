@@ -32,18 +32,35 @@
 
 
 
-class BankAccount:
-    def __init__(self, name, balance):
-        self.name = name         # Attribute
-        self.balance = balance   # Attribute
+# class BankAccount:
+#     def __init__(self, name, balance):
+#         self.name = name         # Attribute
+#         self.balance = balance   # Attribute
 
-    def deposit(self, amount):   # Method
-        self.balance += amount
-        print("New balance:", self.balance)
+#     def deposit(self, amount):   # Method
+#         self.balance += amount
+#         print("New balance:", self.balance)
 
-account = BankAccount("Amit", 5000)
+# account = BankAccount("Amit", 5000)
 
-print(account.name)
-print(account.balance)
+# print(account.name)
+# print(account.balance)
 
-account.deposit(2000)
+# account.deposit(2000)
+
+
+
+
+class Mobile:
+    def __init__(self, brand, price):
+        self.brand = brand       # Attribute
+        self.price = price       # Attribute
+
+    def call(self):              # Method
+        print("Calling...")
+
+phone = Mobile("Samsung", 20000)
+
+print(phone.brand)
+print(phone.price)
+phone.call()
