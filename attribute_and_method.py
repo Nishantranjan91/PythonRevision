@@ -30,19 +30,39 @@
 
 
 
-class BankAccount:
-    def __init__(self, account_holder, balance):
-        self.account_holder = account_holder
-        self.balance = balance
+# class BankAccount:
+#     def __init__(self, account_holder, balance):
+#         self.account_holder = account_holder
+#         self.balance = balance
 
-    def deposit(self, amount):
-        self.balance += amount
+#     def deposit(self, amount):
+#         self.balance += amount
 
-    def withdraw(self, amount):
-        if amount <= self.balance:
-            self.balance -= amount
-        else:
-            print("Insufficient balance")
+#     def withdraw(self, amount):
+#         if amount <= self.balance:
+#             self.balance -= amount
+#         else:
+#             print("Insufficient balance")
 
-    def show_balance(self):
-        print("Current Balance:", self.balance)
+#     def show_balance(self):
+#         print("Current Balance:", self.balance)
+
+
+
+
+
+
+class Car:
+    def __init__(self, brand, model, speed):
+        self.brand = brand
+        self.model = model
+        self.speed = speed
+
+    def accelerate(self, increase):
+        self.speed += increase
+
+    def brake(self, decrease):
+        self.speed -= decrease
+
+    def display_speed(self):
+        print("Current speed:", self.speed)
