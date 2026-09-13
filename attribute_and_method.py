@@ -52,17 +52,48 @@
 
 
 
-class Car:
-    def __init__(self, brand, model, speed):
-        self.brand = brand
-        self.model = model
-        self.speed = speed
+# class Car:
+#     def __init__(self, brand, model, speed):
+#         self.brand = brand
+#         self.model = model
+#         self.speed = speed
 
-    def accelerate(self, increase):
-        self.speed += increase
+#     def accelerate(self, increase):
+#         self.speed += increase
 
-    def brake(self, decrease):
-        self.speed -= decrease
+#     def brake(self, decrease):
+#         self.speed -= decrease
 
-    def display_speed(self):
-        print("Current speed:", self.speed)
+#     def display_speed(self):
+#         print("Current speed:", self.speed)
+
+
+
+
+
+
+class Employee:
+    def __init__(self, name, employee_id, salary):
+        self.name = name
+        self.employee_id = employee_id
+        self.salary = salary
+
+    def display_details(self):
+        print("Name:", self.name)
+        print("Employee ID:", self.employee_id)
+        print("Salary:", self.salary)
+
+    def increase_salary(self, percentage):
+        self.salary += self.salary * percentage / 100
+
+    def annual_salary(self):
+        return self.salary * 12
+
+
+emp = Employee("Amit", 102, 30000)
+
+emp.display_details()
+emp.increase_salary(10)
+
+print("New Salary:", emp.salary)
+print("Annual Salary:", emp.annual_salary())
