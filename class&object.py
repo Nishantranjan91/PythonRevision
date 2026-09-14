@@ -22,18 +22,30 @@
 
 
 
-class BankAccount:
-    def __init__(self, balance):
-        self.balance = balance
+# class BankAccount:
+#     def __init__(self, balance):
+#         self.balance = balance
 
-    def deposit(self, amount):     # Instance method
-        self.balance += amount
+#     def deposit(self, amount):     # Instance method
+#         self.balance += amount
 
-    def show_balance(self):        # Instance method
-        print("Balance:", self.balance)
+#     def show_balance(self):        # Instance method
+#         print("Balance:", self.balance)
 
 
-account = BankAccount(1000)
+# account = BankAccount(1000)
 
-account.deposit(500)
-account.show_balance()
+# account.deposit(500)
+# account.show_balance()
+
+
+
+
+
+
+class Car:
+    def start(self):
+        print("Car is starting")
+
+c1 = Car()
+c1.start()
