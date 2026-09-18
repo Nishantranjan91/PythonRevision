@@ -21,3 +21,7 @@ class human(Animal): # child class
 obj = Animal("Lion",12)
 obj2 = human("Nishant Ranjan",27,1234, "B+")
 obj2.info()
+class Robots(human):
+    def __init__(self, name, age, number, group):
+        super().__init__(name, age, number, group)
+        self.imei = self.imei
