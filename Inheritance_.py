@@ -28,10 +28,19 @@
 
 
 
-# multiple inheritance
+# # multiple inheritance
+# class Animal:
+#     name = "Lion"
+# class Human:
+#     name = "Nishant"
+# class Robots(Human,Animal):
+#     pass        
+
+
+# hierarchical inheritance
 class Animal:
-    name = "Lion"
-class Human:
-    name = "Nishant"
-class Robots(Human,Animal):
-    pass        
+    pass
+class Human(Animal):
+    pass
+class Robots(Animal):
+    pass
