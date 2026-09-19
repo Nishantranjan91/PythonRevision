@@ -74,49 +74,49 @@
 
 
 
-class ATM:
-    def __init__(self, pin):
-        self.__pin = pin
+# class ATM:
+#     def __init__(self, pin):
+#         self.__pin = pin
 
-    def check_pin(self, entered_pin):
-        if entered_pin == self.__pin:
-            print("Correct PIN")
-        else:
-            print("Incorrect PIN")
-
-
-atm = ATM(1234)
-
-atm.check_pin(1234)
-atm.check_pin(5678)
-
-
-
-
-
-
-
-# class Product:
-#     def __init__(self, name, price):
-#         self.name = name
-#         self.__price = price
-
-#     def get_price(self):
-#         return self.__price
-
-#     def set_price(self, new_price):
-#         if new_price > 0:
-#             self.__price = new_price
+#     def check_pin(self, entered_pin):
+#         if entered_pin == self.__pin:
+#             print("Correct PIN")
 #         else:
-#             print("Price must be greater than 0")
+#             print("Incorrect PIN")
 
 
-# product = Product("Laptop", 50000)
+# atm = ATM(1234)
 
-# print(product.get_price())
+# atm.check_pin(1234)
+# atm.check_pin(5678)
 
-# product.set_price(55000)
 
-# print(product.get_price())
 
-# product.set_price(-1000)
+
+
+
+
+class Product:
+    def __init__(self, name, price):
+        self.name = name
+        self.__price = price
+
+    def get_price(self):
+        return self.__price
+
+    def set_price(self, new_price):
+        if new_price > 0:
+            self.__price = new_price
+        else:
+            print("Price must be greater than 0")
+
+
+product = Product("Laptop", 50000)
+
+print(product.get_price())
+
+product.set_price(55000)
+
+print(product.get_price())
+
+product.set_price(-1000)
