@@ -48,47 +48,47 @@
 
 
 
-class Employee:
-    def __init__(self, name, salary):
-        self.name = name
-        self.__salary = salary
+# class Employee:
+#     def __init__(self, name, salary):
+#         self.name = name
+#         self.__salary = salary
 
-    def get_salary(self):
-        return self.__salary
+#     def get_salary(self):
+#         return self.__salary
 
-    def increase_salary(self, amount):
-        if amount > 0:
-            self.__salary += amount
-
-
-emp = Employee("Rahul", 30000)
-
-print(emp.get_salary())
-
-emp.increase_salary(5000)
-
-print(emp.get_salary())
+#     def increase_salary(self, amount):
+#         if amount > 0:
+#             self.__salary += amount
 
 
+# emp = Employee("Rahul", 30000)
+
+# print(emp.get_salary())
+
+# emp.increase_salary(5000)
+
+# print(emp.get_salary())
 
 
 
 
-# class ATM:
-#     def __init__(self, pin):
-#         self.__pin = pin
-
-#     def check_pin(self, entered_pin):
-#         if entered_pin == self.__pin:
-#             print("Correct PIN")
-#         else:
-#             print("Incorrect PIN")
 
 
-# atm = ATM(1234)
+class ATM:
+    def __init__(self, pin):
+        self.__pin = pin
 
-# atm.check_pin(1234)
-# atm.check_pin(5678)
+    def check_pin(self, entered_pin):
+        if entered_pin == self.__pin:
+            print("Correct PIN")
+        else:
+            print("Incorrect PIN")
+
+
+atm = ATM(1234)
+
+atm.check_pin(1234)
+atm.check_pin(5678)
 
 
 
