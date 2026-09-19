@@ -20,54 +20,54 @@
 
 
 
-class Student:
-    def __init__(self, name, marks):
-        self.__name = name
-        self.__marks = marks
+# class Student:
+#     def __init__(self, name, marks):
+#         self.__name = name
+#         self.__marks = marks
 
-    def get_marks(self):
-        return self.__marks
+#     def get_marks(self):
+#         return self.__marks
 
-    def set_marks(self, marks):
-        if 0 <= marks <= 100:
-            self.__marks = marks
-        else:
-            print("Invalid marks")
-
-
-student = Student("Nishant", 80)
-
-print(student.get_marks())
-
-student.set_marks(90)
-
-print(student.get_marks())
+#     def set_marks(self, marks):
+#         if 0 <= marks <= 100:
+#             self.__marks = marks
+#         else:
+#             print("Invalid marks")
 
 
+# student = Student("Nishant", 80)
+
+# print(student.get_marks())
+
+# student.set_marks(90)
+
+# print(student.get_marks())
 
 
 
 
-# class Employee:
-#     def __init__(self, name, salary):
-#         self.name = name
-#         self.__salary = salary
-
-#     def get_salary(self):
-#         return self.__salary
-
-#     def increase_salary(self, amount):
-#         if amount > 0:
-#             self.__salary += amount
 
 
-# emp = Employee("Rahul", 30000)
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.__salary = salary
 
-# print(emp.get_salary())
+    def get_salary(self):
+        return self.__salary
 
-# emp.increase_salary(5000)
+    def increase_salary(self, amount):
+        if amount > 0:
+            self.__salary += amount
 
-# print(emp.get_salary())
+
+emp = Employee("Rahul", 30000)
+
+print(emp.get_salary())
+
+emp.increase_salary(5000)
+
+print(emp.get_salary())
 
 
 
