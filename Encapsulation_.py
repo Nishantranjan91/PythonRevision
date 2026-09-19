@@ -1,47 +1,47 @@
-class BankAccount:
-    def __init__(self, balance):
-        self.__balance = balance   # private variable
+# class BankAccount:
+#     def __init__(self, balance):
+#         self.__balance = balance   # private variable
 
-    def get_balance(self):
-        return self.__balance
+#     def get_balance(self):
+#         return self.__balance
 
-    def deposit(self, amount):
-        self.__balance += amount
-
-
-account = BankAccount(5000)
-
-account.deposit(2000)
-
-print(account.get_balance())
+#     def deposit(self, amount):
+#         self.__balance += amount
 
 
+# account = BankAccount(5000)
+
+# account.deposit(2000)
+
+# print(account.get_balance())
 
 
 
 
-# class Student:
-#     def __init__(self, name, marks):
-#         self.__name = name
-#         self.__marks = marks
-
-#     def get_marks(self):
-#         return self.__marks
-
-#     def set_marks(self, marks):
-#         if 0 <= marks <= 100:
-#             self.__marks = marks
-#         else:
-#             print("Invalid marks")
 
 
-# student = Student("Nishant", 80)
+class Student:
+    def __init__(self, name, marks):
+        self.__name = name
+        self.__marks = marks
 
-# print(student.get_marks())
+    def get_marks(self):
+        return self.__marks
 
-# student.set_marks(90)
+    def set_marks(self, marks):
+        if 0 <= marks <= 100:
+            self.__marks = marks
+        else:
+            print("Invalid marks")
 
-# print(student.get_marks())
+
+student = Student("Nishant", 80)
+
+print(student.get_marks())
+
+student.set_marks(90)
+
+print(student.get_marks())
 
 
 
