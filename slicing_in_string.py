@@ -18,4 +18,5 @@ print(a[:7:])
 
 # printing ways in string
 age = 27 
-print("my age is",age)
+Des = "Data Scientist"
+print("my age is",age,"and my designation is", Des )
