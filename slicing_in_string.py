@@ -12,3 +12,10 @@ print(a[::])
 
 
 print(a[:7:])
+
+
+
+
+# printing ways in string
+age = 27 
+print("my age is",age)
