@@ -24,3 +24,9 @@ print("my age is",age,"and my designation is", Des )
 
 
 print(f"my age is {age}")
+
+
+
+
+# escape sequence in string 
+print(f"my age is {age}\nmy destination is {Des}")
