@@ -20,3 +20,7 @@ print(a[:7:])
 age = 27 
 Des = "Data Scientist"
 print("my age is",age,"and my designation is", Des )
+
+
+
+print(f"my age is {age}")
