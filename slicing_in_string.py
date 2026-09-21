@@ -34,3 +34,10 @@ print(f"my age is {age}\tmy destination is {Des}")
 
 
 print(f"my age is {age}\bmy destination is {Des}")
+
+
+
+
+# input function in string
+name = input("what is your name ?")
+print(f"my name is {name} ")
