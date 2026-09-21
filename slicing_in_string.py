@@ -29,4 +29,4 @@ print(f"my age is {age}")
 
 
 # escape sequence in string 
-print(f"my age is {age}\nmy destination is {Des}")
+print(f"my age is {age}\tmy destination is {Des}")
