@@ -30,3 +30,7 @@ print(f"my age is {age}")
 
 # escape sequence in string 
 print(f"my age is {age}\tmy destination is {Des}")
+
+
+
+print(f"my age is {age}\bmy destination is {Des}")
