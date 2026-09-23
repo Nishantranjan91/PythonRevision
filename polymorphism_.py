@@ -42,27 +42,37 @@
 
 
 
-# A child class can override a method of its parent class.
-class Animal:
-    def sound(self):
-        print("Animal makes a sound")
+# # A child class can override a method of its parent class.
+# class Animal:
+#     def sound(self):
+#         print("Animal makes a sound")
 
 
-class Dog(Animal):
-    def sound(self):
-        print("Dog says Woof")
+# class Dog(Animal):
+#     def sound(self):
+#         print("Dog says Woof")
 
 
-class Cat(Animal):
-    def sound(self):
-        print("Cat says Meow")
+# class Cat(Animal):
+#     def sound(self):
+#         print("Cat says Meow")
 
 
-animals = [Dog(), Cat(), Animal()]
+# animals = [Dog(), Cat(), Animal()]
 
-for animal in animals:
-    animal.sound()
+# for animal in animals:
+#     animal.sound()
 
+
+
+# Python's built-in len() function works with different types of objects.
+name = "Nishant"
+numbers = [10, 20, 30, 40, 50]
+data = (1, 2, 3)
+
+print(len(name))
+print(len(numbers))
+print(len(data))
 
 
 
