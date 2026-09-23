@@ -66,13 +66,37 @@
 
 
 # Python's built-in len() function works with different types of objects.
-name = "Nishant"
-numbers = [10, 20, 30, 40, 50]
-data = (1, 2, 3)
+# name = "Nishant"
+# numbers = [10, 20, 30, 40, 50]
+# data = (1, 2, 3)
 
-print(len(name))
-print(len(numbers))
-print(len(data))
+# print(len(name))
+# print(len(numbers))
+# print(len(data))
 
+
+
+
+
+# Different classes can implement the same method in their own way.
+class Car:
+    def move(self):
+        print("Car is driving")
+
+
+class Boat:
+    def move(self):
+        print("Boat is sailing")
+
+
+class Plane:
+    def move(self):
+        print("Plane is flying")
+
+
+vehicles = [Car(), Boat(), Plane()]
+
+for vehicle in vehicles:
+    vehicle.move()
 
 
