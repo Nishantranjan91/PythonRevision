@@ -19,25 +19,49 @@
 
 
 # The same function can work with different types of objects.
-class Dog:
+# class Dog:
+#     def sound(self):
+#         return "Woof"
+
+
+# class Cat:
+#     def sound(self):
+#         return "Meow"
+
+
+# def make_sound(animal):
+#     print(animal.sound())
+
+
+# dog = Dog()
+# cat = Cat()
+
+# make_sound(dog)
+# make_sound(cat)
+
+
+
+
+# A child class can override a method of its parent class.
+class Animal:
     def sound(self):
-        return "Woof"
+        print("Animal makes a sound")
 
 
-class Cat:
+class Dog(Animal):
     def sound(self):
-        return "Meow"
+        print("Dog says Woof")
 
 
-def make_sound(animal):
-    print(animal.sound())
+class Cat(Animal):
+    def sound(self):
+        print("Cat says Meow")
 
 
-dog = Dog()
-cat = Cat()
+animals = [Dog(), Cat(), Animal()]
 
-make_sound(dog)
-make_sound(cat)
+for animal in animals:
+    animal.sound()
 
 
 
