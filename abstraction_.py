@@ -83,29 +83,69 @@
 
 
 # Abstraction with Database
+# from abc import ABC, abstractmethod
+
+# class Database(ABC):
+
+#     @abstractmethod
+#     def connect(self):
+#         pass
+
+#     @abstractmethod
+#     def disconnect(self):
+#         pass
+
+
+# class MySQL(Database):
+
+#     def connect(self):
+#         print("Connected to MySQL")
+
+#     def disconnect(self):
+#         print("Disconnected from MySQL")
+
+
+# db = MySQL()
+
+# db.connect()
+# db.disconnect()
+
+
+
+
+# Practical Example — Notification System
 from abc import ABC, abstractmethod
 
-class Database(ABC):
+class Notification(ABC):
 
     @abstractmethod
-    def connect(self):
-        pass
-
-    @abstractmethod
-    def disconnect(self):
+    def send(self, message):
         pass
 
 
-class MySQL(Database):
+class Email(Notification):
 
-    def connect(self):
-        print("Connected to MySQL")
-
-    def disconnect(self):
-        print("Disconnected from MySQL")
+    def send(self, message):
+        print(f"Email sent: {message}")
 
 
-db = MySQL()
+class SMS(Notification):
 
-db.connect()
-db.disconnect()
+    def send(self, message):
+        print(f"SMS sent: {message}")
+
+
+class WhatsApp(Notification):
+
+    def send(self, message):
+        print(f"WhatsApp message sent: {message}")
+
+
+notifications = [
+    Email(),
+    SMS(),
+    WhatsApp()
+]
+
+for notification in notifications:
+    notification.send("Your order has been shipped!")
