@@ -22,29 +22,60 @@
 
 
 # Abstraction with Car
+# from abc import ABC, abstractmethod
+
+# class Car(ABC):
+
+#     @abstractmethod
+#     def start(self):
+#         pass
+
+
+# class BMW(Car):
+
+#     def start(self):
+#         print("BMW starts with a button")
+
+
+# class Tesla(Car):
+
+#     def start(self):
+#         print("Tesla starts automatically")
+
+
+# car1 = BMW()
+# car1.start()
+
+# car2 = Tesla()
+# car2.start()
+
+
+
+
+# Abstraction with Payment System
 from abc import ABC, abstractmethod
 
-class Car(ABC):
+class Payment(ABC):
 
     @abstractmethod
-    def start(self):
+    def pay(self, amount):
         pass
 
 
-class BMW(Car):
+class CreditCard(Payment):
 
-    def start(self):
-        print("BMW starts with a button")
-
-
-class Tesla(Car):
-
-    def start(self):
-        print("Tesla starts automatically")
+    def pay(self, amount):
+        print(f"Paid ₹{amount} using Credit Card")
 
 
-car1 = BMW()
-car1.start()
+class UPI(Payment):
 
-car2 = Tesla()
-car2.start()
+    def pay(self, amount):
+        print(f"Paid ₹{amount} using UPI")
+
+
+payment1 = CreditCard()
+payment1.pay(1000)
+
+payment2 = UPI()
+payment2.pay(500)
