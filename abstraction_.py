@@ -53,29 +53,59 @@
 
 
 # Abstraction with Payment System
+# from abc import ABC, abstractmethod
+
+# class Payment(ABC):
+
+#     @abstractmethod
+#     def pay(self, amount):
+#         pass
+
+
+# class CreditCard(Payment):
+
+#     def pay(self, amount):
+#         print(f"Paid ₹{amount} using Credit Card")
+
+
+# class UPI(Payment):
+
+#     def pay(self, amount):
+#         print(f"Paid ₹{amount} using UPI")
+
+
+# payment1 = CreditCard()
+# payment1.pay(1000)
+
+# payment2 = UPI()
+# payment2.pay(500)
+
+
+
+# Abstraction with Database
 from abc import ABC, abstractmethod
 
-class Payment(ABC):
+class Database(ABC):
 
     @abstractmethod
-    def pay(self, amount):
+    def connect(self):
+        pass
+
+    @abstractmethod
+    def disconnect(self):
         pass
 
 
-class CreditCard(Payment):
+class MySQL(Database):
 
-    def pay(self, amount):
-        print(f"Paid ₹{amount} using Credit Card")
+    def connect(self):
+        print("Connected to MySQL")
 
-
-class UPI(Payment):
-
-    def pay(self, amount):
-        print(f"Paid ₹{amount} using UPI")
+    def disconnect(self):
+        print("Disconnected from MySQL")
 
 
-payment1 = CreditCard()
-payment1.pay(1000)
+db = MySQL()
 
-payment2 = UPI()
-payment2.pay(500)
+db.connect()
+db.disconnect()
