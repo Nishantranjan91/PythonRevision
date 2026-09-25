@@ -26,3 +26,19 @@ class Student:
 
 s1 = Student("Nishant", 22)
 s1.display()
+
+
+
+
+# Concept: Encapsulation means keeping data and methods together and restricting direct access to internal data.
+class BankAccount:
+    def __init__(self, balance):
+        self.__balance = balance
+
+    def show_balance(self):
+        print("Balance:", self.__balance)
+
+
+account = BankAccount(5000)
+
+account.show_balance()
