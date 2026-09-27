@@ -24,8 +24,10 @@
 
 
 # gender differentiation
-gen = input("please tell me your gender in character (m,f):-")
-if gen == 'm':
+gen = input("please tell me your gender in character (m,f,M,F):-")
+if gen == 'm' or gen == 'M':
     print("hello sir how are you ?")
+elif gen == 'f' or gen == 'F':
+    print("hello mam how are you ?")
 else:
-    print("hello maa'm how are you ?")    
+    print("wrong input please provide m,f,M,F")    
