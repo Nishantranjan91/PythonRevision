@@ -24,10 +24,20 @@
 
 
 # gender differentiation
-gen = input("please tell me your gender in character (m,f,M,F):-")
-if gen == 'm' or gen == 'M':
-    print("hello sir how are you ?")
-elif gen == 'f' or gen == 'F':
-    print("hello mam how are you ?")
+# gen = input("please tell me your gender in character (m,f,M,F):-")
+# if gen == 'm' or gen == 'M':
+#     print("hello sir how are you ?")
+# elif gen == 'f' or gen == 'F':
+#     print("hello mam how are you ?")
+# else:
+#     print("wrong input please provide m,f,M,F")    
+
+
+
+
+# even - odd identification
+a = int(input("please give a number :"))
+if a%2 == 0:
+        print("the given number is even")
 else:
-    print("wrong input please provide m,f,M,F")    
+        print("the given number is odd")    
