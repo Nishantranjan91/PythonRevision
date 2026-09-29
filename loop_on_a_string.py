@@ -16,3 +16,10 @@ for i in range(0,len(s),1):
 #  default values of a range:
 for i in range(17):
         print(i)        
+
+
+
+# for string :
+a = "string"
+for i in range(len(a)):
+        print(i)        
