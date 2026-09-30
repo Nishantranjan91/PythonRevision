@@ -56,9 +56,20 @@
 
 
 # sum of all factors
-n = int(input("please tell me a number which factors are you want to print - "))
-sum = 0
-for i in range(1,n+1,1):
-    if n%i == 0:
-        sum = sum+i
-print(sum)        
+# n = int(input("please tell me a number which factors are you want to print - "))
+# sum = 0
+# for i in range(1,n+1,1):
+#     if n%i == 0:
+#         sum = sum+i
+# print(sum)        
+
+
+
+
+# power calculation (a^b)
+a = int(input("please provide a number which power is need:"))
+b = int(input("please provide a number which is a power to a:"))
+power = a
+for i in range(b-1):
+    power = power*a
+print(f"your required result is {power}")    
