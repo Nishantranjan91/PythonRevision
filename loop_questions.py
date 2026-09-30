@@ -13,8 +13,18 @@
 
 
 # sum of natural numbers
-n = int(input("please tell me how many times you want to print - "))
-s = 0
+# n = int(input("please tell me how many times you want to print - "))
+# s = 0
+# for i in range(1,n+1,1):
+#     s = s+i
+# print(s)    
+
+
+
+
+# factorial of a number
+n = int(input("please tell me which number of factorial you want to print - "))
+m = 1
 for i in range(1,n+1,1):
-    s = s+i
-print(s)    
+    m = m*i
+print(m)    
