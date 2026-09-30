@@ -33,12 +33,21 @@
 
 
 # sum of even and odd numbers in a range 
-n = int(input("please tell me a number upto the sum of even and odd you want to print - "))
-sum_even = 0
-sum_odd = 0
+# n = int(input("please tell me a number upto the sum of even and odd you want to print - "))
+# sum_even = 0
+# sum_odd = 0
+# for i in range(1,n+1,1):
+#     if i%2 == 0:
+#         sum_even = sum_even+i
+#     else:
+#         sum_odd = sum_odd+i
+# print(f"your even sum is {sum_even} and odd sum is {sum_odd}")    
+
+
+
+
+# print all factors of a number
+n = int(input("please tell me a number which factors are you want to print - "))
 for i in range(1,n+1,1):
-    if i%2 == 0:
-        sum_even = sum_even+i
-    else:
-        sum_odd = sum_odd+i
-print(f"your even sum is {sum_even} and odd sum is {sum_odd}")            
+    if n%i == 0:
+        print(i)
