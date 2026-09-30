@@ -47,7 +47,18 @@
 
 
 # print all factors of a number
+# n = int(input("please tell me a number which factors are you want to print - "))
+# for i in range(1,n+1,1):
+#     if n%i == 0:
+#         print(i)
+
+
+
+
+# sum of all factors
 n = int(input("please tell me a number which factors are you want to print - "))
+sum = 0
 for i in range(1,n+1,1):
     if n%i == 0:
-        print(i)
+        sum = sum+i
+print(sum)        
