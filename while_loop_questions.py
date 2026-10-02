@@ -30,9 +30,15 @@
 
 # Automorphic number 
 a = 5
+dup = a
 square = a**2
 count = 0 
 while a>0:
     count = count+1
     a = a//10
     print(count)
+extract = square%(10**count)    
+if extract == dup:
+    print("your number is automorphic number")
+else:
+    print("sorry your number is not an automorphic number")    
