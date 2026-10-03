@@ -19,8 +19,6 @@
 
 
 # reusable function:
-def addition():
-    a = 15
-    b = 12
+def addition(a,b):
     print(a+b)
-addition()        
+addition(15,12)        
