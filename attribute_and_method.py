@@ -126,4 +126,4 @@ phone = MobilePhone("Samsung", "Galaxy S24", 50)
 
 phone.make_call("9876543210")
 phone.charge(30)
-phone.show_battery()
+phone.show_battery()    

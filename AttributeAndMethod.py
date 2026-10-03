@@ -10,3 +10,7 @@ class Animal:
         print("Lion is roaring")
 obj = Animal("lion",12)        
 obj.info()
+
+
+
+
