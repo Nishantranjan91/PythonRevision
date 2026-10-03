@@ -1,3 +1,11 @@
+# def shiv():
+#     print("This is defining a function")
+# shiv()    
+
+
+
+# return function:
 def shiv():
-    print("This is defining a function")
-shiv()    
+    return "This is defining a function"
+x = shiv() 
+print(x)
