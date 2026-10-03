@@ -5,13 +5,22 @@
 
 
 # return function:
-def shiv():
-    return "This is defining a function"
-x = shiv() 
-print(x)
+# def shiv():
+#     return "This is defining a function"
+# x = shiv() 
+# print(x)
 
 
-# second way of return function:
-def shiv():
-    return "This is defining a function"
-print(shiv())
+# # second way of return function:
+# def shiv():
+#     return "This is defining a function"
+# print(shiv())
+
+
+
+# reusable function:
+def addition():
+    a = 15
+    b = 12
+    print(a+b)
+addition()        
