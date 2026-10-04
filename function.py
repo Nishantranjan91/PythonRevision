@@ -34,6 +34,14 @@
 
 
 # Positional argument :
+# def addition(a,b,c):
+#     print(a+b+c)
+# addition(12,c=22,b=24)
+
+
+
+
+# default parameter and parameter with values:
 def addition(a,b,c):
     print(a+b+c)
-addition(12,c=22,b=33)
+addition(12,22,c=24)
