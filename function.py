@@ -19,6 +19,13 @@
 
 
 # reusable function:
-def addition(a,b):
-    print(a+b)
-addition(15,12)        
+# def addition(a,b):
+#     print(a+b)
+# addition(15,12)        
+
+
+
+# keyword argument(if one key word value give then all other will also must be given):
+def addition(a,b,c):
+    print(a+b+c)
+addition(a=11,b=22,c=33) 
