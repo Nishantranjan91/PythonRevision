@@ -44,4 +44,4 @@
 # default parameter and parameter with values:
 def addition(a,b,c=24):
     print(a+b+c)
-addition(12,22)
+addition(12,22,25)
