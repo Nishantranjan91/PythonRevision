@@ -67,9 +67,22 @@
 
 
 # reverse the list:
-a = [10,12,23,45,42,11,38,55,99,68,81]
-b = []
-for i in range(len(a)-1,-1,-1):
-    b.append(a[i])
-print(b)    
+# a = [10,12,23,45,42,11,38,55,99,68,81]
+# b = []
+# for i in range(len(a)-1,-1,-1):
+#     b.append(a[i])
+# print(b)    
 
+
+
+
+
+# linear search:
+a = [10,12,23,45,42,11,38,55,99,68,81]
+search =99
+for i in range(len(a)):
+    if a[i] == search:
+        print(f"the element is at index {i}")
+        break
+    else:
+        print("sorry no such element is exist")
