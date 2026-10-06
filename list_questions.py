@@ -24,12 +24,20 @@
 
 
 # a given list is sorted or not:
-a = [10,12,23,45,42,11,38,55,99,68,81]
-for i in range(len(a)):
-    if a[i]<a[i+1]:
-        continue
-    else:
-        print("your list is not sorted.")
-        break
-else:
-    print("your list is sorted.")    
+# a = [10,12,23,45,42,11,38,55,99,68,81]
+# for i in range(len(a)):
+#     if a[i]<a[i+1]:
+#         continue
+#     else:
+#         print("your list is not sorted.")
+#         break
+# else:
+#     print("your list is sorted.")    
+
+
+
+# Left rotation by one:
+a = [10,12,23,45,42,11,38,55,99,68,81] 
+for i in range(len(a)-1):
+    a[i],a[i+1] = a[i+1],a[i]
+print(a)    
