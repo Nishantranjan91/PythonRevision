@@ -84,5 +84,6 @@ for i in range(len(a)):
     if a[i] == search:
         print(f"the element is at index {i}")
         break
-    else:
-        print("sorry no such element is exist")
+else:
+    print("sorry no such element is exist")
+        
