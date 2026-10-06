@@ -37,17 +37,28 @@
 
 
 # Left rotation by one:
-a = [10,12,23,45,42,11,38,55,99,68,81] 
-for i in range(len(a)-1):
-    a[i],a[i+1] = a[i+1],a[i]
-print(a)    
+# a = [10,12,23,45,42,11,38,55,99,68,81] 
+# for i in range(len(a)-1):
+#     a[i],a[i+1] = a[i+1],a[i]
+# print(a)    
 
 
 
 
 
-# right rotation:
+# # right rotation:
+# a = [10,12,23,45,42,11,38,55,99,68,81]
+# for i in range(len(a)-1,0,-1):
+#     a[i],a[i-1] = a[i-1],a[i]
+# print(a)    
+
+
+
+
+# k times rotation:
+k = int(input("how many times you want to rotate ? :-"))
 a = [10,12,23,45,42,11,38,55,99,68,81]
-for i in range(len(a)-1,0,-1):
-    a[i],a[i-1] = a[i-1],a[i]
-print(a)    
+for i in range(k):
+    for i in range(len(a)-1):
+        a[i],a[i+1] = a[i+1],a[i]
+print(a)        
