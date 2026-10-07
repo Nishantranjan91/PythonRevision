@@ -6,5 +6,12 @@
 
 
 # type
-a = (99,)
-print(type(a)) # type of a is tuple because of comma
+# a = (99,)
+# print(type(a)) # type of a is tuple because of comma
+
+
+
+# list to tuple conversion:
+a = [10,20,30,40]
+b = tuple(a)
+print(b)
