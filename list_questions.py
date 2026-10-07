@@ -112,12 +112,24 @@ else:
 
 
 # bubble sort:
-a = [12,14,16,23,25,34,37,45,48,59,68,70]
-for j in range(len(a)-1):
-    for i in range(len(a)-1-j):
-     if a[i] > a[i+1]:
-        a[i],a[i+1] = a[i+1],a[i]
-print(a)
+# a = [12,14,16,23,25,34,37,45,48,59,68,70]
+# for j in range(len(a)-1):
+#     for i in range(len(a)-1-j):
+#      if a[i] > a[i+1]:
+#         a[i],a[i+1] = a[i+1],a[i]
+# print(a)
 
-        
+
+
+
+# selection sort:
+a = [12,14,16,23,25,34,37,45,48,59,68,70]
+for i in range(len(a)-1):
+   j = i+1
+   min = i
+   for k in range(j,len(a)):
+      if a[k]<a[min]:
+         min = k
+a[i],a[min] = a[min],a[i]
+print(a)              
     
