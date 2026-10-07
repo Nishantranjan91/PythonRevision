@@ -6,5 +6,5 @@
 
 
 # type
-a = ()
-print(type(a))
+a = (99)
+print(type(a)) # type of a is int unpacking 
