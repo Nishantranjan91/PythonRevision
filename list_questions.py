@@ -113,8 +113,11 @@ else:
 
 # bubble sort:
 a = [12,14,16,23,25,34,37,45,48,59,68,70]
-for i in range(len(a)-1):
-    if a[i] > a[i+1]:
+for j in range(len(a)-1):
+    for i in range(len(a)-1):
+     if a[i] > a[i+1]:
         a[i],a[i+1] = a[i+1],a[i]
-print(a)        
+print(a)
+
+        
     
