@@ -31,5 +31,11 @@
 
 
 # it dont have any indexing:
-a = {11,12,13,15,16}
-print(a[1])
+# a = {11,12,13,15,16}
+# print(a[1])
+
+
+# set constructor:
+a = [1,3,3,44,49,34,567,99]
+s = set(a)
+print(s)
