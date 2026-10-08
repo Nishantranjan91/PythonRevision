@@ -9,4 +9,4 @@
 
 
 # hash value:
-print(hash("nishant"))
+print(hash("nisha"))
