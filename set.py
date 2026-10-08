@@ -14,4 +14,16 @@
 
 
 # hash value of a number:
-print(hash(1999))
+# print(hash(1999))
+
+
+
+# hash map:
+# a = {10,20,30,40,50}
+# print(a)
+
+ 
+
+# it can not have duplicate values 
+a = {10,10,10,20,20,20,20,30,30,30,30,40,40,40,40,50,50,50}
+print(a)
