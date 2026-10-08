@@ -8,5 +8,10 @@
 
 
 
-# hash value:
-print(hash("nisha"))
+# hash value of a char
+# print(hash("nisha"))
+
+
+
+# hash value of a number:
+print(hash(1999))
