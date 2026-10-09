@@ -7,6 +7,12 @@
 
 
 # lambda function:
-square = lambda a : a**2
-print(square(15))
+# square = lambda a : a**2
+# print(square(15))
 
+
+
+
+# second method:
+square = lambda a : print(a**2)
+square(6)
