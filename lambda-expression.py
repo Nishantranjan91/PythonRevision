@@ -14,5 +14,11 @@
 
 
 # second method:
-square = lambda a : print(a**2)
-square(6)
+# square = lambda a : print(a**2)
+# square(6)
+
+
+
+# addition:
+addition = lambda x,y: x+y
+print(addition(33,33))
