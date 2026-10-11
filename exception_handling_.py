@@ -48,10 +48,21 @@
 
 
 # FileNotFoundError
-try:
-    file = open("data.txt", "r")
-    print(file.read())
-    file.close()
+# try:
+#     file = open("data.txt", "r")
+#     print(file.read())
+#     file.close()
 
-except FileNotFoundError:
-    print("File not found!")
+# except FileNotFoundError:
+#     print("File not found!")
+
+
+
+
+# IndexError
+try:
+    numbers = [10, 20, 30]
+    print(numbers[5])
+
+except IndexError:
+    print("Index is out of range!")
