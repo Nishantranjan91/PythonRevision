@@ -13,10 +13,22 @@
 
 
 # raise
+# try:
+#     age = int(input("please give me your age:-"))
+#     if age < 18:
+#         raise Exception("you must be 18+")
+#     print("access granted")
+# except Exception as e:
+#     print("error",e)    
+
+
+
+
+# ZeroDivisionError
 try:
-    age = int(input("please give me your age:-"))
-    if age < 18:
-        raise Exception("you must be 18+")
-    print("access granted")
-except Exception as e:
-    print("error",e)    
+    a = 10
+    b = 0
+    print(a / b)
+
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
