@@ -37,9 +37,21 @@
 
 
 # ValueError
-try:
-    num = int(input("Enter a number: "))
-    print("Number is:", num)
+# try:
+#     num = int(input("Enter a number: "))
+#     print("Number is:", num)
 
-except ValueError:
-    print("Please enter a valid number!")
+# except ValueError:
+#     print("Please enter a valid number!")
+
+
+
+
+# FileNotFoundError
+try:
+    file = open("data.txt", "r")
+    print(file.read())
+    file.close()
+
+except FileNotFoundError:
+    print("File not found!")
