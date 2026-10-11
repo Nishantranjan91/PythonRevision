@@ -60,9 +60,26 @@
 
 
 # IndexError
-try:
-    numbers = [10, 20, 30]
-    print(numbers[5])
+# try:
+#     numbers = [10, 20, 30]
+#     print(numbers[5])
 
-except IndexError:
-    print("Index is out of range!")
+# except IndexError:
+#     print("Index is out of range!")
+
+
+
+# Multiple Exceptions with finally
+try:
+    num = int(input("Enter a number: "))
+    result = 100 / num
+    print("Result:", result)
+
+except ValueError:
+    print("Please enter a valid number!")
+
+except ZeroDivisionError:
+    print("Number cannot be zero!")
+
+finally:
+    print("Program execution completed.")
