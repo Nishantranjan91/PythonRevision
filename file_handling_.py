@@ -5,4 +5,11 @@
 
 
 # creating a file:
-open("push.txt",'x')
+# open("push.txt","x")
+
+
+
+
+# creating a file using 'w':
+file = open("pull.txt","w")
+file.write("hello I am Nishant Ranjan")
