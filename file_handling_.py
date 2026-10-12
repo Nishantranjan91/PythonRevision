@@ -13,3 +13,4 @@
 # creating a file using 'w':
 file = open("pull.txt","w")
 file.write("hello I am Nishant Ranjan")
+file.close()
