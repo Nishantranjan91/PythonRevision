@@ -50,9 +50,19 @@
 
 
 
-with open("demo.txt", "r") as file:
-    content = file.read()
+# with open("demo.txt", "r") as file:
+#     content = file.read()
 
-words = content.split()
+# words = content.split()
 
-print("Total words:", len(words))
+# print("Total words:", len(words))
+
+
+
+
+import os
+
+if os.path.exists("demo.txt"):
+    print("File exists!")
+else:
+    print("File does not exist.")
