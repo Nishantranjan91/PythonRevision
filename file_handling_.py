@@ -18,8 +18,16 @@
 
 
 
-with open("demo.txt", "w") as file:
-    file.write("Hello, Nishant!\n")
-    file.write("I am learning Python file handling.")
+# with open("demo.txt", "w") as file:
+#     file.write("Hello, Nishant!\n")
+#     file.write("I am learning Python file handling.")
 
-print("File created successfully!")
+# print("File created successfully!")
+
+
+
+
+with open("demo.txt", "r") as file:
+    content = file.read()
+
+print(content)
