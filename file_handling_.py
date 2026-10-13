@@ -60,9 +60,19 @@
 
 
 
-import os
+# import os
 
-if os.path.exists("demo.txt"):
-    print("File exists!")
-else:
-    print("File does not exist.")
+# if os.path.exists("demo.txt"):
+#     print("File exists!")
+# else:
+#     print("File does not exist.")
+
+
+
+
+try:
+    with open("unknown.txt", "r") as file:
+        print(file.read())
+
+except FileNotFoundError:
+    print("Sorry, the file was not found.")
