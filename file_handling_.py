@@ -34,7 +34,14 @@
 
 
 
-with open("demo.txt", "a") as file:
-    file.write("\nI am also learning data analytics.")
+# with open("demo.txt", "a") as file:
+#     file.write("\nI am also learning data analytics.")
 
-print("New content added!")
+# print("New content added!")
+
+
+
+
+with open("demo.txt", "r") as file:
+    for line in file:
+        print(line.strip())
