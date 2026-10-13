@@ -42,6 +42,17 @@
 
 
 
+# with open("demo.txt", "r") as file:
+#     for line in file:
+#         print(line.strip())
+
+
+
+
+
 with open("demo.txt", "r") as file:
-    for line in file:
-        print(line.strip())
+    content = file.read()
+
+words = content.split()
+
+print("Total words:", len(words))
