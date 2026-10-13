@@ -27,7 +27,14 @@
 
 
 
-with open("demo.txt", "r") as file:
-    content = file.read()
+# with open("demo.txt", "r") as file:
+#     content = file.read()
 
-print(content)
+# print(content)
+
+
+
+with open("demo.txt", "a") as file:
+    file.write("\nI am also learning data analytics.")
+
+print("New content added!")
