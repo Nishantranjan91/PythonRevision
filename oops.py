@@ -32,16 +32,41 @@
 
 
 # Polymorphism means the same method name can perform different actions for different objects.
-class Dog:
-    def sound(self):
-        print("Dog barks")
+# class Dog:
+#     def sound(self):
+#         print("Dog barks")
 
-class Cat:
-    def sound(self):
-        print("Cat meows")
+# class Cat:
+#     def sound(self):
+#         print("Cat meows")
 
-d = Dog()
-c = Cat()
+# d = Dog()
+# c = Cat()
 
-d.sound()
-c.sound()
+# d.sound()
+# c.sound()
+
+
+
+
+# Abstraction means hiding implementation details and showing only the essential features.
+from abc import ABC, abstractmethod
+
+class Vehicle(ABC):
+    @abstractmethod
+    def start(self):
+        pass
+
+class Car(Vehicle):
+    def start(self):
+        print("Car starts with a key")
+
+class Bike(Vehicle):
+    def start(self):
+        print("Bike starts with a button")
+
+c = Car()
+b = Bike()
+
+c.start()
+b.start()
