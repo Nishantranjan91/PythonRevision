@@ -48,14 +48,37 @@
 
 
 # class Animal:
-class Animal:
-    def eat(self):
-        print("Animal is eating")
+# class Animal:
+#     def eat(self):
+#         print("Animal is eating")
 
-class Dog(Animal):
-    def bark(self):
-        print("Dog is barking")
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog is barking")
 
-d = Dog()
-d.eat()
-d.bark()
+# d = Dog()
+# d.eat()
+# d.bark()
+
+
+
+# Abstraction means hiding implementation details and exposing only the essential functionality.
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+class Rectangle(Shape):
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+r = Rectangle(5, 3)
+print("Area:", r.area())
+
+
