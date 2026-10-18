@@ -15,7 +15,18 @@
 
 
 # The datetime module works with dates and times.
-import datetime
+# import datetime
 
-today = datetime.date.today()
-print(today)
+# today = datetime.date.today()
+# print(today)
+
+
+
+
+# NumPy is a popular third-party package used for numerical calculations and working with arrays.
+import numpy as np
+
+numbers = np.array([10, 20, 30, 40])
+
+print(numbers)
+print(np.mean(numbers))
