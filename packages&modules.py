@@ -7,7 +7,15 @@
 
 
 # The random module generates random values.
-import random
+# import random
 
-print(random.randint(1, 10))
-print(random.choice(["Apple", "Mango", "Banana"]))
+# print(random.randint(1, 10))
+# print(random.choice(["Apple", "Mango", "Banana"]))
+
+
+
+# The datetime module works with dates and times.
+import datetime
+
+today = datetime.date.today()
+print(today)
