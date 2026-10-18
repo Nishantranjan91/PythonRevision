@@ -24,9 +24,21 @@
 
 
 # NumPy is a popular third-party package used for numerical calculations and working with arrays.
-import numpy as np
+# import numpy as np
 
-numbers = np.array([10, 20, 30, 40])
+# numbers = np.array([10, 20, 30, 40])
 
-print(numbers)
-print(np.mean(numbers))
+# print(numbers)
+# print(np.mean(numbers))
+
+
+# Pandas is a popular package for data analysis and data manipulation.
+import pandas as pd
+
+data = {
+    "Name": ["Rahul", "Aman", "Priya"],
+    "Marks": [80, 90, 85]
+}
+
+df = pd.DataFrame(data)
+print(df)
