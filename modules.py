@@ -34,16 +34,33 @@
 
 
 # The datetime module helps you work with the current date, time, and dates in the past or future.
-import datetime
+# import datetime
 
-# Get the current date
-today = datetime.date.today()
-print("Today's date:", today)
+# # Get the current date
+# today = datetime.date.today()
+# print("Today's date:", today)
 
-# Get the current date and time
-now = datetime.datetime.now()
-print("Current date and time:", now)
+# # Get the current date and time
+# now = datetime.datetime.now()
+# print("Current date and time:", now)
 
-# Create a specific date
-my_date = datetime.date(2026, 10, 19)
-print("My date:", my_date)
+# # Create a specific date
+# my_date = datetime.date(2026, 10, 19)
+# print("My date:", my_date)
+
+
+
+# The statistics module is useful for basic statistical calculations, including data analysis.
+import statistics
+
+marks = [70, 80, 90, 85, 75]
+
+# Calculate average
+print("Mean:", statistics.mean(marks))
+
+# Calculate median
+print("Median:", statistics.median(marks))
+
+# Find the highest frequency value
+numbers = [10, 20, 20, 30, 40]
+print("Mode:", statistics.mode(numbers))
