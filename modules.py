@@ -51,16 +51,31 @@
 
 
 # The statistics module is useful for basic statistical calculations, including data analysis.
-import statistics
+# import statistics
 
-marks = [70, 80, 90, 85, 75]
+# marks = [70, 80, 90, 85, 75]
 
-# Calculate average
-print("Mean:", statistics.mean(marks))
+# # Calculate average
+# print("Mean:", statistics.mean(marks))
 
-# Calculate median
-print("Median:", statistics.median(marks))
+# # Calculate median
+# print("Median:", statistics.median(marks))
 
-# Find the highest frequency value
-numbers = [10, 20, 20, 30, 40]
-print("Mode:", statistics.mode(numbers))
+# # Find the highest frequency value
+# numbers = [10, 20, 20, 30, 40]
+# print("Mode:", statistics.mode(numbers))
+
+
+
+
+# The os module lets you interact with your operating system, such as checking folders and viewing files
+import os
+
+# Get the current working directory
+print("Current folder:", os.getcwd())
+
+# List files and folders in the current directory
+print("Files and folders:", os.listdir())
+
+# Check whether a file exists
+print("Does data.csv exist?", os.path.exists("data.csv"))
