@@ -53,16 +53,41 @@
 
 
 # Polymorphism means that the same method name can have different behavior in different classes.
-class Addition:
-    def calculate(self, a, b):
-        print("Sum:", a + b)
+# class Addition:
+#     def calculate(self, a, b):
+#         print("Sum:", a + b)
 
-class Multiplication:
-    def calculate(self, a, b):
-        print("Product:", a * b)
+# class Multiplication:
+#     def calculate(self, a, b):
+#         print("Product:", a * b)
 
-obj1 = Addition()
-obj2 = Multiplication()
+# obj1 = Addition()
+# obj2 = Multiplication()
 
-obj1.calculate(5, 3)
-obj2.calculate(5, 3)
+# obj1.calculate(5, 3)
+# obj2.calculate(5, 3)
+
+
+
+
+# Abstraction means hiding implementation details and exposing only the essential functionality.
+from abc import ABC, abstractmethod
+
+class Payment(ABC):
+    @abstractmethod
+    def pay(self, amount):
+        pass
+
+class UPI(Payment):
+    def pay(self, amount):
+        print("Paid Rs.", amount, "using UPI")
+
+class Card(Payment):
+    def pay(self, amount):
+        print("Paid Rs.", amount, "using Card")
+
+p1 = UPI()
+p2 = Card()
+
+p1.pay(500)
+p2.pay(1000)
