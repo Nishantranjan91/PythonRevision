@@ -36,15 +36,33 @@
 
 
 # Inheritance allows one class to reuse and extend the functionality of another class.
-class Animal:
-    def eat(self):
-        print("Animal is eating")
+# class Animal:
+#     def eat(self):
+#         print("Animal is eating")
 
-class Dog(Animal):
-    def bark(self):
-        print("Dog is barking")
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog is barking")
 
-d = Dog()
+# d = Dog()
 
-d.eat()
-d.bark()
+# d.eat()
+# d.bark()
+
+
+
+
+# Polymorphism means that the same method name can have different behavior in different classes.
+class Addition:
+    def calculate(self, a, b):
+        print("Sum:", a + b)
+
+class Multiplication:
+    def calculate(self, a, b):
+        print("Product:", a * b)
+
+obj1 = Addition()
+obj2 = Multiplication()
+
+obj1.calculate(5, 3)
+obj2.calculate(5, 3)
