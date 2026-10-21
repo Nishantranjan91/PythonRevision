@@ -25,11 +25,30 @@ colors = ("Red", "Green", "Blue")
 
 #A Set stores unique items. It automatically removes duplicate values, and its items do not have a fixed order
 # Example of Set
-numbers = {10, 20, 30, 20, 40}
+# numbers = {10, 20, 30, 20, 40}
 
-print(numbers)
+# print(numbers)
 
-# Add a new item
-numbers.add(50)
+# # Add a new item
+# numbers.add(50)
 
-print(numbers)
+# print(numbers)
+
+
+
+
+#A Dictionary stores data in key: value pairs. It is useful when you want to access information using a key.
+# Example of Dictionary
+student = {
+    "name": "Rahul",
+    "age": 21,
+    "course": "Python"
+}
+
+print(student)
+print(student["name"])
+
+# Update a value
+student["age"] = 22
+
+print(student)
