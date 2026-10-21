@@ -16,6 +16,20 @@
 # Example of Tuple
 colors = ("Red", "Green", "Blue")
 
-print(colors)
-print(colors[1])
-print(len(colors))
+# print(colors)
+# print(colors[1])
+# print(len(colors))
+
+
+
+
+#A Set stores unique items. It automatically removes duplicate values, and its items do not have a fixed order
+# Example of Set
+numbers = {10, 20, 30, 20, 40}
+
+print(numbers)
+
+# Add a new item
+numbers.add(50)
+
+print(numbers)
