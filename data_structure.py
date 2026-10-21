@@ -39,16 +39,29 @@ colors = ("Red", "Green", "Blue")
 
 #A Dictionary stores data in key: value pairs. It is useful when you want to access information using a key.
 # Example of Dictionary
-student = {
-    "name": "Rahul",
-    "age": 21,
-    "course": "Python"
-}
+# student = {
+#     "name": "Rahul",
+#     "age": 21,
+#     "course": "Python"
+# }
 
-print(student)
-print(student["name"])
+# print(student)
+# print(student["name"])
 
-# Update a value
-student["age"] = 22
+# # Update a value
+# student["age"] = 22
 
-print(student)
+# print(student)
+
+
+
+
+
+# A String stores a sequence of characters. Strings are ordered and immutable, meaning their characters cannot be changed directly
+# Example of String
+name = "Nishant Ranjan"
+
+print(name)
+print(name[0])
+print(name.upper())
+print(len(name))
