@@ -37,9 +37,23 @@
 
 
 # Skip negative numbers
-numbers = [10, -5, 20, -2, 30]
+# numbers = [10, -5, 20, -2, 30]
 
-for num in numbers:
-    if num < 0:
+# for num in numbers:
+#     if num < 0:
+#         continue
+#     print(num)
+
+
+
+
+# Use continue in a while loop
+i = 0
+
+while i < 5:
+    i += 1
+
+    if i == 3:
         continue
-    print(num)
+
+    print(i)
