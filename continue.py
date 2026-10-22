@@ -26,9 +26,20 @@
 
 
 # Skip a specific name in a list
-names = ["Rahul", "Amit", "Ravi", "Priya"]
+# names = ["Rahul", "Amit", "Ravi", "Priya"]
 
-for name in names:
-    if name == "Ravi":
+# for name in names:
+#     if name == "Ravi":
+#         continue
+#     print(name)
+
+
+
+
+# Skip negative numbers
+numbers = [10, -5, 20, -2, 30]
+
+for num in numbers:
+    if num < 0:
         continue
-    print(name)
+    print(num)
