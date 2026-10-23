@@ -22,13 +22,34 @@
 
 
 # Deep copy of a nested list
+# import copy
+
+# original = [[1, 2], [3, 4]]
+
+# copied = copy.deepcopy(original)
+
+# original[0][0] = 100
+
+# print("Original list:", original)
+# print("Copied list:", copied)
+
+
+
+
+# Deep copy of a nested dictionary
 import copy
 
-original = [[1, 2], [3, 4]]
+original = {
+    "name": "Rahul",
+    "marks": {
+        "Python": 80,
+        "SQL": 75
+    }
+}
 
 copied = copy.deepcopy(original)
 
-original[0][0] = 100
+original["marks"]["Python"] = 95
 
-print("Original list:", original)
-print("Copied list:", copied)
+print("Original dictionary:", original)
+print("Copied dictionary:", copied)
