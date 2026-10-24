@@ -13,17 +13,38 @@
 
 #Sort numbers in ascending orde
 
-numbers = [64, 25, 12, 22, 11]
+# numbers = [64, 25, 12, 22, 11]
+
+# n = len(numbers)
+
+# for i in range(n):
+#     min_index = i
+
+#     for j in range(i + 1, n):
+#         if numbers[j] < numbers[min_index]:
+#             min_index = j
+
+#     numbers[i], numbers[min_index] = numbers[min_index], numbers[i]
+
+# print("Sorted list:", numbers)
+
+
+
+
+
+# Sort numbers in descending order
+
+numbers = [5, 2, 9, 1, 7]
 
 n = len(numbers)
 
 for i in range(n):
-    min_index = i
+    max_index = i
 
     for j in range(i + 1, n):
-        if numbers[j] < numbers[min_index]:
-            min_index = j
+        if numbers[j] > numbers[max_index]:
+            max_index = j
 
-    numbers[i], numbers[min_index] = numbers[min_index], numbers[i]
+    numbers[i], numbers[max_index] = numbers[max_index], numbers[i]
 
 print("Sorted list:", numbers)
