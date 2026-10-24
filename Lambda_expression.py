@@ -11,5 +11,10 @@
 
 
 
-add = lambda x,y : x+y
-print(add(12,15))
+# Add two numbers using a lambda expression
+
+add = lambda a, b: a + b
+
+result = add(10, 20)
+
+print("Sum:", result)
