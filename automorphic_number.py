@@ -15,7 +15,18 @@
 
 
 # Check whether 5 is an automorphic number
-num = 5
+# num = 5
+# square = num * num
+
+# if str(square).endswith(str(num)):
+#     print("Automorphic Number")
+# else:
+#     print("Not an Automorphic Number")
+
+
+
+# Check whether 25 is an automorphic number
+num = 25
 square = num * num
 
 if str(square).endswith(str(num)):
