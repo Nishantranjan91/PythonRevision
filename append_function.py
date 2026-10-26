@@ -6,8 +6,18 @@
 
 
 # Append a number to a list
-numbers = [10, 20, 30]
+# numbers = [10, 20, 30]
 
-numbers.append(40)
+# numbers.append(40)
 
-print(numbers)
+# print(numbers)
+
+
+
+
+# Append a name to a list
+names = ["Rahul", "Amit", "Priya"]
+
+names.append("Nishant")
+
+print(names)
