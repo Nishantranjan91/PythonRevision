@@ -18,7 +18,18 @@
 
 
 # Adding two numbers
-def add(a, b):
-    print(a + b)
+# def add(a, b):
+#     print(a + b)
 
-add(10, 20)
+# add(10, 20)
+
+
+
+
+
+# Displaying student details
+def student(name, age):
+    print("Name:", name)
+    print("Age:", age)
+
+student("Rahul", 21)
