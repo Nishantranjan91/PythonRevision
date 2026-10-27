@@ -8,7 +8,17 @@
 
 
 
-def multiplication(a,b,c):
-    print(a*b*c)
+# def multiplication(a,b,c):
+#     print(a*b*c)
 
-multiplication(12,b=10,c=4)
+# multiplication(12,b=10,c=4)
+
+
+
+
+
+# Adding two numbers
+def add(a, b):
+    print(a + b)
+
+add(10, 20)
