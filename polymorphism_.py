@@ -79,24 +79,38 @@
 
 
 # Different classes can implement the same method in their own way.
-class Car:
-    def move(self):
-        print("Car is driving")
+# class Car:
+#     def move(self):
+#         print("Car is driving")
 
 
-class Boat:
-    def move(self):
-        print("Boat is sailing")
+# class Boat:
+#     def move(self):
+#         print("Boat is sailing")
 
 
-class Plane:
-    def move(self):
-        print("Plane is flying")
+# class Plane:
+#     def move(self):
+#         print("Plane is flying")
 
 
-vehicles = [Car(), Boat(), Plane()]
+# vehicles = [Car(), Boat(), Plane()]
 
-for vehicle in vehicles:
-    vehicle.move()
+# for vehicle in vehicles:
+#     vehicle.move()
+
+
+
+
+# Number 456
+# Example 1
+num = 123
+if str(num) != str(num)[::-1]:
+    print(num, "is a non-palindromic number")
+
+# Example 2
+num = 456
+if str(num) != str(num)[::-1]:
+    print(num, "is a non-palindromic number")
 
 
