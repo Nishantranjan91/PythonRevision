@@ -6,7 +6,21 @@
 
 # Dividing a number by zero
 
-a = 10
-b = 0
+# a = 10
+# b = 0
 
-print(a / b)
+# print(a / b)
+
+
+
+
+#Handling ZeroDivisionError using try-except
+
+try:
+    a = 20
+    b = 0
+    result = a / b
+    print(result)
+
+except ZeroDivisionError:
+    print("Error: Cannot divide by zero!")
