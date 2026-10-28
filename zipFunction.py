@@ -11,3 +11,14 @@ zipped_list = list(result)
 # Display the result
 print("Zipped List:")
 print(zipped_list)
+
+
+
+# Using zip() with two lists
+
+names = ["Rahul", "Amit", "Priya"]
+marks = [85, 90, 95]
+
+result = zip(names, marks)
+
+print(list(result))
