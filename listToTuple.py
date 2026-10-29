@@ -7,9 +7,21 @@
 #Convert a list of numbers into a tuple
 
 
-numbers = [10, 20, 30, 40, 50]
+# numbers = [10, 20, 30, 40, 50]
 
-result = tuple(numbers)
+# result = tuple(numbers)
+
+# print(result)
+# print(type(result))
+
+
+
+
+# Convert a list of fruits into a tuple
+
+fruits = ["Apple", "Banana", "Mango"]
+
+result = tuple(fruits)
 
 print(result)
-print(type(result))
+
