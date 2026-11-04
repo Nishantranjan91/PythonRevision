@@ -24,6 +24,17 @@
 
 
 
-def addition(a,b):
-    print(a+b)
-addition(b=15,a=20)    # if one variable is mentioned then other variable will must be mention
+# def addition(a,b):
+#     print(a+b)
+# addition(b=15,a=20)    # if one variable is mentioned then other variable will must be mention
+
+
+
+
+# Function without parameters
+# Function definition
+def greet():
+    print("Hello, Nishant!")
+
+# Function calling
+greet()
