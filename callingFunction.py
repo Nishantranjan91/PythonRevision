@@ -33,8 +33,21 @@
 
 # Function without parameters
 # Function definition
-def greet():
-    print("Hello, Nishant!")
+# def greet():
+#     print("Hello, Nishant!")
+
+# # Function calling
+# greet()
+
+
+
+
+
+# Function with parameters
+# Function definition
+def add(a, b):
+    result = a + b
+    print("Addition:", result)
 
 # Function calling
-greet()
+add(10, 20)
