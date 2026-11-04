@@ -6,10 +6,23 @@
 
 # Using symmetric_difference() method
 # Creating two sets
-A = {1, 2, 3, 4}
-B = {3, 4, 5, 6}
+# A = {1, 2, 3, 4}
+# B = {3, 4, 5, 6}
+
+# # Finding symmetric difference
+# result = A.symmetric_difference(B)
+
+# print("Symmetric Difference:", result)
+
+
+
+
+# Using ^ operator
+# Creating two sets
+X = {"Apple", "Banana", "Mango"}
+Y = {"Banana", "Orange", "Grapes"}
 
 # Finding symmetric difference
-result = A.symmetric_difference(B)
+result = X ^ Y
 
 print("Symmetric Difference:", result)
