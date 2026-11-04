@@ -8,8 +8,18 @@
 
 # Function with one argument
 # Function definition
-def greet(name):
-    print("Hello", name)
+# def greet(name):
+#     print("Hello", name)
 
-# Function calling with argument
-greet("Nishant")
+# # Function calling with argument
+# greet("Nishant")
+
+
+
+## Function definition
+def student(name, age):
+    print("Student Name:", name)
+    print("Student Age:", age)
+
+# Function calling with arguments
+student("Rahul", 22)
