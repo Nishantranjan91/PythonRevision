@@ -17,9 +17,21 @@
 
 
 # Using pop() without an index
-numbers = [10, 20, 30, 40, 50]
+# numbers = [10, 20, 30, 40, 50]
 
-removed = numbers.pop()
+# removed = numbers.pop()
 
-print("Removed number:", removed)
-print("Updated list:", numbers)
+# print("Removed number:", removed)
+# print("Updated list:", numbers)
+
+
+
+
+#Using pop() without an index
+
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+
+removed_item = fruits.pop()
+
+print("Removed Item:", removed_item)
+print("Updated List:", fruits)
