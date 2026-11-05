@@ -104,13 +104,17 @@
 
 # Number 456
 # Example 1
-num = 123
-if str(num) != str(num)[::-1]:
-    print(num, "is a non-palindromic number")
+# num = 123
+# if str(num) != str(num)[::-1]:
+#     print(num, "is a non-palindromic number")
 
-# Example 2
-num = 456
-if str(num) != str(num)[::-1]:
-    print(num, "is a non-palindromic number")
+# # Example 2
+# num = 456
+# if str(num) != str(num)[::-1]:
+#     print(num, "is a non-palindromic number")
+
+
+
+
 
 

@@ -37,19 +37,19 @@
 
 
 # Deep copy of a nested dictionary
-import copy
+# import copy
 
-original = {
-    "name": "Rahul",
-    "marks": {
-        "Python": 80,
-        "SQL": 75
-    }
-}
+# original = {
+#     "name": "Rahul",
+#     "marks": {
+#         "Python": 80,
+#         "SQL": 75
+#     }
+# }
 
-copied = copy.deepcopy(original)
+# copied = copy.deepcopy(original)
 
-original["marks"]["Python"] = 95
+# original["marks"]["Python"] = 95
 
-print("Original dictionary:", original)
-print("Copied dictionary:", copied)
+# print("Original dictionary:", original)
+# print("Copied dictionary:", copied)

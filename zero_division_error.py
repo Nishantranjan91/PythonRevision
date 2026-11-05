@@ -16,11 +16,16 @@
 
 #Handling ZeroDivisionError using try-except
 
-try:
-    a = 20
-    b = 0
-    result = a / b
-    print(result)
+# try:
+#     a = 20
+#     b = 0
+#     result = a / b
+#     print(result)
 
-except ZeroDivisionError:
-    print("Error: Cannot divide by zero!")
+# except ZeroDivisionError:
+#     print("Error: Cannot divide by zero!")
+
+
+
+
+#
