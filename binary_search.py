@@ -23,26 +23,60 @@
 
 
 
-a = [12, 14, 16, 23, 25, 34, 37, 45, 48, 59, 68, 70]
+# a = [12, 14, 16, 23, 25, 34, 37, 45, 48, 59, 68, 70]
 
-search = 50
+# search = 50
 
-start = 0
-last = len(a) - 1
+# start = 0
+# last = len(a) - 1
 
-while start <= last:
+# while start <= last:
 
-    mid = (start + last) // 2
+#     mid = (start + last) // 2
 
-    if a[mid] == search:
-        print(f"Element found at index {mid}")
-        break
+#     if a[mid] == search:
+#         print(f"Element found at index {mid}")
+#         break
 
-    elif a[mid] < search:
-        start = mid + 1
+#     elif a[mid] < search:
+#         start = mid + 1
 
-    else:
-        last = mid - 1
+#     else:
+#         last = mid - 1
 
+# else:
+#     print("Sorry, no such element exists.")
+
+
+
+
+# Binary Search using Iterative Method
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+
+    while low <= high:
+        mid = (low + high) // 2
+
+        if arr[mid] == target:
+            return mid
+
+        elif arr[mid] < target:
+            low = mid + 1
+
+        else:
+            high = mid - 1
+
+    return -1
+
+
+# Example
+arr = [10, 20, 30, 40, 50, 60, 70]
+target = 40
+
+result = binary_search(arr, target)
+
+if result != -1:
+    print("Element found at index:", result)
 else:
-    print("Sorry, no such element exists.")
+    print("Element not found")
