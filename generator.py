@@ -44,13 +44,28 @@
 
 
 #Generator to print numbers from 1 to 5
-def my_generator():
-    for i in range(1, 6):
+# def my_generator():
+#     for i in range(1, 6):
+#         yield i
+
+
+# # Calling generator
+# result = my_generator()
+
+# for num in result:
+#     print(num)
+
+
+
+
+# Generator to generate even numbers
+def even_numbers(limit):
+    for i in range(2, limit + 1, 2):
         yield i
 
 
 # Calling generator
-result = my_generator()
+result = even_numbers(10)
 
 for num in result:
     print(num)
