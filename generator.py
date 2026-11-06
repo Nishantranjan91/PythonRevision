@@ -36,6 +36,21 @@
 
 
 #generator comprehension
-sequence = (x**2 for x in range(5))
-print(next(sequence))
-print(next(sequence))
+# sequence = (x**2 for x in range(5))
+# print(next(sequence))
+# print(next(sequence))
+
+
+
+
+#Generator to print numbers from 1 to 5
+def my_generator():
+    for i in range(1, 6):
+        yield i
+
+
+# Calling generator
+result = my_generator()
+
+for num in result:
+    print(num)
