@@ -12,6 +12,22 @@
 
 
 # list to tuple conversion:
-a = [10,20,30,40]
-b = tuple(a)
-print(b)
+# a = [10,20,30,40]
+# b = tuple(a)
+# print(b)
+
+
+
+#Create and access elements of a tuple
+# Creating a tuple
+my_tuple = (10, 20, 30, 40, 50)
+
+# Printing the tuple
+print("Tuple:", my_tuple)
+
+# Accessing elements
+print("First element:", my_tuple[0])
+print("Third element:", my_tuple[2])
+
+# Finding the length
+print("Length:", len(my_tuple))
