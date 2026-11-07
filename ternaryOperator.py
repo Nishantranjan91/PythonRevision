@@ -36,8 +36,17 @@
 
 # Check whether a person is eligible to vote
 
-age = 20
+# age = 20
 
-result = "Eligible to vote" if age >= 18 else "Not eligible to vote"
+# result = "Eligible to vote" if age >= 18 else "Not eligible to vote"
+
+# print(result)
+
+
+
+# Check Even or Odd
+num = 10
+
+result = "Even" if num % 2 == 0 else "Odd"
 
 print(result)
