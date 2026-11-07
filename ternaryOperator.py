@@ -45,8 +45,19 @@
 
 
 # Check Even or Odd
-num = 10
+# num = 10
 
-result = "Even" if num % 2 == 0 else "Odd"
+# result = "Even" if num % 2 == 0 else "Odd"
 
-print(result)
+# print(result)
+
+
+
+
+# Find the Greatest Number
+a = 25
+b = 40
+
+greatest = a if a > b else b
+
+print("Greatest number is:", greatest)
