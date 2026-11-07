@@ -40,13 +40,22 @@ my_tuple = (10, 20, 30, 40, 50)
 student = ("Nishant", 22, "Python", 85.5)
 
 # Printing tuple elements
-print("Student Name:", student[0])
-print("Age:", student[1])
-print("Course:", student[2])
-print("Marks:", student[3])
+# print("Student Name:", student[0])
+# print("Age:", student[1])
+# print("Course:", student[2])
+# print("Marks:", student[3])
 
-# Loop through tuple
-print("All Student Details:")
+# # Loop through tuple
+# print("All Student Details:")
 
-for item in student:
-    print(item)
+# for item in student:
+#     print(item)
+
+
+
+# Creating and Accessing a Tuple
+fruits = ("Apple", "Banana", "Mango", "Orange")
+
+print(fruits)
+print(fruits[0])
+print(fruits[2])
