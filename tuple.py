@@ -54,8 +54,20 @@ student = ("Nishant", 22, "Python", 85.5)
 
 
 # Creating and Accessing a Tuple
-fruits = ("Apple", "Banana", "Mango", "Orange")
+# fruits = ("Apple", "Banana", "Mango", "Orange")
 
-print(fruits)
-print(fruits[0])
-print(fruits[2])
+# print(fruits)
+# print(fruits[0])
+# print(fruits[2])
+
+
+
+
+# Tuple Packing and Unpacking
+student = ("Rahul", 21, "Computer Science")
+
+name, age, course = student
+
+print("Name:", name)
+print("Age:", age)
+print("Course:", course)
