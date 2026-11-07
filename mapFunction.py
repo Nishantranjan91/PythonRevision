@@ -37,11 +37,21 @@
 
 
 # Find the Square of Numbers
-numbers = [1, 2, 3, 4, 5]
+# numbers = [1, 2, 3, 4, 5]
 
-def square(num):
-    return num * num
+# def square(num):
+#     return num * num
 
-result = map(square, numbers)
+# result = map(square, numbers)
+
+# print(list(result))
+
+
+
+
+# Convert Strings into Uppercase
+names = ["rahul", "nishant", "rohit", "amit"]
+
+result = map(str.upper, names)
 
 print(list(result))
