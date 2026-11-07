@@ -26,9 +26,22 @@
 
 
 # You have a list of product prices. Apply a 10% discount to every product using map() and a lambda function.
-prices = [1000, 2000, 3000, 4000, 5000]
+# prices = [1000, 2000, 3000, 4000, 5000]
 
-discounted_prices = list(map(lambda price: price * 0.90, prices))
+# discounted_prices = list(map(lambda price: price * 0.90, prices))
 
-print("Original Prices:", prices)
-print("Discounted Prices:", discounted_prices)
+# print("Original Prices:", prices)
+# print("Discounted Prices:", discounted_prices)
+
+
+
+
+# Find the Square of Numbers
+numbers = [1, 2, 3, 4, 5]
+
+def square(num):
+    return num * num
+
+result = map(square, numbers)
+
+print(list(result))
