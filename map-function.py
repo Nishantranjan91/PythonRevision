@@ -69,7 +69,19 @@
 
 
 
-name = ["Nishant","Santosh","Vivek","Prabhakar"]
-ages = [27,24,25,28]
-comb = zip(name,ages)
-print(dict(list(comb)))
+# name = ["Nishant","Santosh","Vivek","Prabhakar"]
+# ages = [27,24,25,28]
+# comb = zip(name,ages)
+# print(dict(list(comb)))
+
+
+
+# Square of numbers using map()
+numbers = [1, 2, 3, 4, 5]
+
+def square(n):
+    return n * n
+
+result = map(square, numbers)
+
+print(list(result))
