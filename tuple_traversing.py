@@ -19,7 +19,19 @@
 
 
 # Tuple Traversing using for loop
-fruits = ("apple", "banana", "mango", "orange")
+# fruits = ("apple", "banana", "mango", "orange")
 
-for fruit in fruits:
-    print(fruit)
+# for fruit in fruits:
+#     print(fruit)
+
+
+
+
+# Tuple Traversing using while loop
+numbers = (10, 20, 30, 40, 50)
+
+i = 0
+
+while i < len(numbers):
+    print(numbers[i])
+    i += 1
