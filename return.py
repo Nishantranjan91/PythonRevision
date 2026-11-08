@@ -13,9 +13,21 @@
 
 
 # Addition of two numbers using return
-def add(a, b):
-    return a + b
+# def add(a, b):
+#     return a + b
 
-result = add(10, 20)
+# result = add(10, 20)
 
-print("Addition:", result)
+# print("Addition:", result)
+
+
+
+
+
+# Find the square of a number using return
+def square(num):
+    return num * num
+
+result = square(5)
+
+print("Square:", result)
