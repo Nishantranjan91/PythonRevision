@@ -14,4 +14,12 @@
 
 
 
-help(tuple)
+# help(tuple)
+
+
+
+# Tuple Traversing using for loop
+fruits = ("apple", "banana", "mango", "orange")
+
+for fruit in fruits:
+    print(fruit)
