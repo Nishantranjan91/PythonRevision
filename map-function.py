@@ -77,11 +77,22 @@
 
 
 # Square of numbers using map()
-numbers = [1, 2, 3, 4, 5]
+# numbers = [1, 2, 3, 4, 5]
 
-def square(n):
-    return n * n
+# def square(n):
+#     return n * n
 
-result = map(square, numbers)
+# result = map(square, numbers)
+
+# print(list(result))
+
+
+
+
+
+# Convert strings into uppercase using map()
+names = ["nishant", "rahul", "amit", "rohit"]
+
+result = map(str.upper, names)
 
 print(list(result))
