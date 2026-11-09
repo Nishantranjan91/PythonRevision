@@ -116,43 +116,75 @@
 
 
 # Create different shape classes (Circle, Rectangle, Triangle). Each class should have the same method area(), but calculate the area differently. Store their objects in an array (list) and call the same method
-import math
+# import math
 
-class Circle:
-    def __init__(self, radius):
-        self.radius = radius
+# class Circle:
+#     def __init__(self, radius):
+#         self.radius = radius
 
-    def area(self):
-        return math.pi * self.radius ** 2
-
-
-class Rectangle:
-    def __init__(self, length, width):
-        self.length = length
-        self.width = width
-
-    def area(self):
-        return self.length * self.width
+#     def area(self):
+#         return math.pi * self.radius ** 2
 
 
-class Triangle:
-    def __init__(self, base, height):
-        self.base = base
-        self.height = height
+# class Rectangle:
+#     def __init__(self, length, width):
+#         self.length = length
+#         self.width = width
 
-    def area(self):
-        return 0.5 * self.base * self.height
+#     def area(self):
+#         return self.length * self.width
 
 
-# Array of different objects
-shapes = [
-    Circle(5),
-    Rectangle(10, 4),
-    Triangle(6, 8)
+# class Triangle:
+#     def __init__(self, base, height):
+#         self.base = base
+#         self.height = height
+
+#     def area(self):
+#         return 0.5 * self.base * self.height
+
+
+# # Array of different objects
+# shapes = [
+#     Circle(5),
+#     Rectangle(10, 4),
+#     Triangle(6, 8)
+# ]
+
+# # Polymorphism
+# for shape in shapes:
+#     print("Area:", round(shape.area(), 2))
+
+
+
+
+# Create three employee classes: FullTime, PartTime and Freelancer. Each employee should have the same method calculate_salary(), but the salary calculation should be different.
+class FullTime:
+    def calculate_salary(self):
+        return 50000
+
+
+class PartTime:
+    def calculate_salary(self):
+        hours = 80
+        rate = 200
+        return hours * rate
+
+
+class Freelancer:
+    def calculate_salary(self):
+        projects = 3
+        payment = 15000
+        return projects * payment
+
+
+# Array of employee objects
+employees = [
+    FullTime(),
+    PartTime(),
+    Freelancer()
 ]
 
 # Polymorphism
-for shape in shapes:
-    print("Area:", round(shape.area(), 2))
-
-
+for employee in employees:
+    print("Salary:", employee.calculate_salary())
