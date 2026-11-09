@@ -115,6 +115,44 @@
 
 
 
+# Create different shape classes (Circle, Rectangle, Triangle). Each class should have the same method area(), but calculate the area differently. Store their objects in an array (list) and call the same method
+import math
 
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return math.pi * self.radius ** 2
+
+
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+
+class Triangle:
+    def __init__(self, base, height):
+        self.base = base
+        self.height = height
+
+    def area(self):
+        return 0.5 * self.base * self.height
+
+
+# Array of different objects
+shapes = [
+    Circle(5),
+    Rectangle(10, 4),
+    Triangle(6, 8)
+]
+
+# Polymorphism
+for shape in shapes:
+    print("Area:", round(shape.area(), 2))
 
 
