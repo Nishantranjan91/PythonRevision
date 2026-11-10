@@ -24,8 +24,25 @@
 
 # Find Largest Number Using max()
 
-numbers = [10, 20, 30, 40, 50]
+# numbers = [10, 20, 30, 40, 50]
 
-largest = max(numbers)
+# largest = max(numbers)
+
+# print("Largest number is:", largest)
+
+
+
+
+
+# Find Largest Number Using for Loop
+
+numbers = [5, 15, 8, 25, 12]
+
+largest = numbers[0]
+
+for num in numbers:
+    if num > largest:
+        largest = num
 
 print("Largest number is:", largest)
+
