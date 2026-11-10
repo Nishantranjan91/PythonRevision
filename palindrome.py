@@ -50,7 +50,21 @@
 
 # Palindrome Number (121)
 
-num = 121
+# num = 121
+
+# reverse = int(str(num)[::-1])
+
+# if num == reverse:
+#     print("Palindrome Number")
+# else:
+#     print("Not a Palindrome Number")
+
+
+
+
+#Palindrome Number (123)
+
+num = 123
 
 reverse = int(str(num)[::-1])
 
@@ -58,6 +72,7 @@ if num == reverse:
     print("Palindrome Number")
 else:
     print("Not a Palindrome Number")
+
 
 
 
