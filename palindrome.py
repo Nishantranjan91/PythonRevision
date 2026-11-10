@@ -36,11 +36,30 @@
 
 
 #Check a number using string slicing
-num = 12321
+# num = 12321
+
+# reverse = int(str(num)[::-1])
+
+# if num == reverse:
+#     print("Palindrome number")
+# else:
+#     print("Not a palindrome number") 
+
+
+
+
+# Palindrome Number (121)
+
+num = 121
 
 reverse = int(str(num)[::-1])
 
 if num == reverse:
-    print("Palindrome number")
+    print("Palindrome Number")
 else:
-    print("Not a palindrome number") 
+    print("Not a Palindrome Number")
+
+
+
+
+#
