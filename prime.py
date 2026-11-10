@@ -31,6 +31,23 @@
 
 num = 8
 
+# if num > 1:
+#     for i in range(2, num):
+#         if num % i == 0:
+#             print("Not a Prime Number")
+#             break
+#     else:
+#         print("Prime Number")
+# else:
+#     print("Not a Prime Number")
+
+
+
+
+#Prime Number (7)
+
+num = 7
+
 if num > 1:
     for i in range(2, num):
         if num % i == 0:
@@ -40,3 +57,4 @@ if num > 1:
         print("Prime Number")
 else:
     print("Not a Prime Number")
+
