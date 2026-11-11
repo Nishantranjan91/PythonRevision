@@ -56,8 +56,19 @@
 
 
 # Calling a function without parameters
-def greet():
-    print("Hello, Welcome to Python!")
+# def greet():
+#     print("Hello, Welcome to Python!")
+
+# # Calling the function
+# greet()
+
+
+
+
+# Calling a function with parameters
+def add(a, b):
+    result = a + b
+    print("Sum =", result)
 
 # Calling the function
-greet()
+add(10, 20)
