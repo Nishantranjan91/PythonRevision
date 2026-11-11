@@ -45,9 +45,19 @@
 
 # Function with parameters
 # Function definition
-def add(a, b):
-    result = a + b
-    print("Addition:", result)
+# def add(a, b):
+#     result = a + b
+#     print("Addition:", result)
 
-# Function calling
-add(10, 20)
+# # Function calling
+# add(10, 20)
+
+
+
+
+# Calling a function without parameters
+def greet():
+    print("Hello, Welcome to Python!")
+
+# Calling the function
+greet()
