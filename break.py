@@ -15,12 +15,16 @@
 
 
 
-    for  i in range(15,25):
-        print(i)
-        if i== 30:
-            break
+    # for  i in range(15,25):
+    #     print(i)
+    #     if i== 30:
+    #         break
 
 
 
-
+# Using break in a for loop
+for i in range(1, 11):
+    if i == 5:
+        break
+    print(i)
 
