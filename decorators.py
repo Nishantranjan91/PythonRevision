@@ -38,21 +38,44 @@
 
 
 # Simple Decorator Function
+# def my_decorator(func):
+
+#     def wrapper():
+#         print("Before calling the function")
+
+#         func()
+
+#         print("After calling the function")
+
+#     return wrapper
+
+
+# @my_decorator
+# def hello():
+#     print("Hello Nishant!")
+
+
+# hello()
+
+
+
+# Decorator with Arguments
 def my_decorator(func):
 
-    def wrapper():
-        print("Before calling the function")
+    def wrapper(name):
 
-        func()
+        print("Function is starting")
 
-        print("After calling the function")
+        func(name)
+
+        print("Function is completed")
 
     return wrapper
 
 
 @my_decorator
-def hello():
-    print("Hello Nishant!")
+def welcome(name):
+    print("Welcome", name)
 
 
-hello()
+welcome("Nishant")
