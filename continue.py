@@ -48,10 +48,21 @@
 
 
 # Use continue in a while loop
-i = 0
+# i = 0
 
-while i < 5:
-    i += 1
+# while i < 5:
+#     i += 1
+
+#     if i == 3:
+#         continue
+
+#     print(i)
+
+
+
+
+# Skip number 3 using continue
+for i in range(1, 6):
 
     if i == 3:
         continue
