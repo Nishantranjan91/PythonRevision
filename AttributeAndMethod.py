@@ -15,21 +15,47 @@
 
 
 # Student Class
-class Student:
+# class Student:
+
+#     # Attributes
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+#     # Method
+#     def display(self):
+#         print("Name:", self.name)
+#         print("Age:", self.age)
+
+
+# # Creating an object
+# s1 = Student("Nishant", 22)
+
+# # Calling method
+# s1.display()
+
+
+
+# Car Class
+class Car:
 
     # Attributes
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+    def __init__(self, brand, color):
+        self.brand = brand
+        self.color = color
 
     # Method
-    def display(self):
-        print("Name:", self.name)
-        print("Age:", self.age)
+    def start(self):
+        print(self.brand, "car is starting")
+
+    def show_details(self):
+        print("Brand:", self.brand)
+        print("Color:", self.color)
 
 
 # Creating an object
-s1 = Student("Nishant", 22)
+car1 = Car("BMW", "Black")
 
-# Calling method
-s1.display()
+# Calling methods
+car1.start()
+car1.show_details()
