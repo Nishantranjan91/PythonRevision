@@ -28,7 +28,16 @@
 
 
 # Function with One Argument
-def greet(name):
-    print("Hello", name)
+# def greet(name):
+#     print("Hello", name)
 
-greet("Nishant")
+# greet("Nishant")
+
+
+
+# Function with Two Arguments
+def add(a, b):
+    result = a + b
+    print("Sum =", result)
+
+add(10, 20)
