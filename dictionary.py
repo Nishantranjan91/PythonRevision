@@ -12,25 +12,63 @@
 
 # Student Information System
 
-student = {
-    "name": "Nishant",
-    "age": 22,
-    "course": "Python",
-    "marks": 85
+# student = {
+#     "name": "Nishant",
+#     "age": 22,
+#     "course": "Python",
+#     "marks": 85
+# }
+
+# # Access dictionary values
+# print("Name:", student["name"])
+# print("Age:", student["age"])
+# print("Course:", student["course"])
+# print("Marks:", student["marks"])
+
+# # Add a new key-value pair
+# student["city"] = "Bihar"
+
+# # Update marks
+# student["marks"] = 90
+
+# # Display complete dictionary
+# print("\nUpdated Student Details:")
+# print(student)
+
+
+
+
+
+
+# Online Shopping Cart
+
+cart = {
+    "Laptop": 50000,
+    "Mouse": 800,
+    "Keyboard": 1500,
+    "Headphones": 2000
 }
 
-# Access dictionary values
-print("Name:", student["name"])
-print("Age:", student["age"])
-print("Course:", student["course"])
-print("Marks:", student["marks"])
+# Display products
+print("Shopping Cart:")
 
-# Add a new key-value pair
-student["city"] = "Bihar"
+for product, price in cart.items():
+    print(product, ":", price)
 
-# Update marks
-student["marks"] = 90
+# Calculate total price
+total = sum(cart.values())
 
-# Display complete dictionary
-print("\nUpdated Student Details:")
-print(student)
+print("\nTotal Amount:", total)
+
+# Apply 10% discount
+discount = total * 0.10
+
+final_amount = total - discount
+
+print("Discount:", discount)
+print("Final Amount:", final_amount)
+
+# Add a new product
+cart["Monitor"] = 12000
+
+print("\nUpdated Cart:", cart)
