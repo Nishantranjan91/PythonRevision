@@ -17,9 +17,18 @@
 
 
 ## Function definition
-def student(name, age):
-    print("Student Name:", name)
-    print("Student Age:", age)
+# def student(name, age):
+#     print("Student Name:", name)
+#     print("Student Age:", age)
 
-# Function calling with arguments
-student("Rahul", 22)
+# # Function calling with arguments
+# student("Rahul", 22)
+
+
+
+
+# Function with One Argument
+def greet(name):
+    print("Hello", name)
+
+greet("Nishant")
