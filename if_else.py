@@ -36,8 +36,21 @@
 
 
 # even - odd identification
-a = int(input("please give a number :"))
-if a%2 == 0:
-        print("the given number is even")
+# a = int(input("please give a number :"))
+# if a%2 == 0:
+#         print("the given number is even")
+# else:
+#         print("the given number is odd")    
+
+
+
+
+# Check whether two strings are anagrams
+
+str1 = "listen"
+str2 = "silent"
+
+if sorted(str1.lower()) == sorted(str2.lower()):
+    print("Both strings are anagrams")
 else:
-        print("the given number is odd")    
+    print("Both strings are not anagrams")
