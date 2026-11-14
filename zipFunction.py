@@ -28,8 +28,23 @@
 
 # Using zip() in a for loop
 
-fruits = ["Apple", "Banana", "Mango"]
-prices = [100, 40, 80]
+# fruits = ["Apple", "Banana", "Mango"]
+# prices = [100, 40, 80]
 
-for fruit, price in zip(fruits, prices):
-    print(fruit, "costs", price, "rupees")
+# for fruit, price in zip(fruits, prices):
+#     print(fruit, "costs", price, "rupees")
+
+
+
+
+
+# Compare two strings character by character
+
+str1 = "python"
+str2 = "pytHon"
+
+for position, (char1, char2) in enumerate(zip(str1, str2), start=1):
+    if char1 == char2:
+        print(f"Position {position}: {char1} = {char2}")
+    else:
+        print(f"Position {position}: {char1} != {char2}")
