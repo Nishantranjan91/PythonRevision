@@ -38,15 +38,28 @@
 
 # Count the frequency of each character in a string
 
-text = "programming"
+# text = "programming"
 
-frequency = {}
+# frequency = {}
+
+# for char in text:
+#     if char in frequency:
+#         frequency[char] += 1
+#     else:
+#         frequency[char] = 1
+
+# for char, count in frequency.items():
+#     print(char, ":", count)
+
+
+
+
+
+# Find the first non-repeating character
+
+text = "swiss"
 
 for char in text:
-    if char in frequency:
-        frequency[char] += 1
-    else:
-        frequency[char] = 1
-
-for char, count in frequency.items():
-    print(char, ":", count)
+    if text.count(char) == 1:
+        print("First non-repeating character:", char)
+        break
