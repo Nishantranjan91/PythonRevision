@@ -50,7 +50,19 @@
 str1 = "listen"
 str2 = "silent"
 
-if sorted(str1.lower()) == sorted(str2.lower()):
-    print("Both strings are anagrams")
+# if sorted(str1.lower()) == sorted(str2.lower()):
+#     print("Both strings are anagrams")
+# else:
+#     print("Both strings are not anagrams")
+
+
+
+
+# Check password strength using if-else
+
+password = "Python123"
+
+if len(password) >= 8 and any(char.isupper() for char in password) and any(char.islower() for char in password) and any(char.isdigit() for char in password):
+    print("Strong Password")
 else:
-    print("Both strings are not anagrams")
+    print("Weak Password")
