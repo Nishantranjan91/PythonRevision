@@ -40,11 +40,27 @@
 
 # Compare two strings character by character
 
-str1 = "python"
-str2 = "pytHon"
+# str1 = "python"
+# str2 = "pytHon"
 
-for position, (char1, char2) in enumerate(zip(str1, str2), start=1):
-    if char1 == char2:
-        print(f"Position {position}: {char1} = {char2}")
-    else:
-        print(f"Position {position}: {char1} != {char2}")
+# for position, (char1, char2) in enumerate(zip(str1, str2), start=1):
+#     if char1 == char2:
+#         print(f"Position {position}: {char1} = {char2}")
+#     else:
+#         print(f"Position {position}: {char1} != {char2}")
+
+
+
+
+
+# Create a dictionary using two strings
+
+keys = "ABCDE"
+values = "12345"
+
+result = {}
+
+for key, value in zip(keys, values):
+    result[key] = value
+
+print(result)
