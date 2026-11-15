@@ -46,13 +46,30 @@
 
 
 # Reverse a Number Using a While Loop
-num = 12345
-reverse = 0
+# num = 12345
+# reverse = 0
+
+# while num > 0:
+#     digit = num % 10
+#     reverse = reverse * 10 + digit
+#     num = num // 10
+
+# print("Original Number:", 12345)
+# print("Reversed Number:", reverse)
+
+
+
+
+
+#Find the Sum of Digits of a Number
+num = 45678
+original = num
+total = 0
 
 while num > 0:
     digit = num % 10
-    reverse = reverse * 10 + digit
+    total = total + digit
     num = num // 10
 
-print("Original Number:", 12345)
-print("Reversed Number:", reverse)
+print("Original Number:", original)
+print("Sum of Digits:", total)
