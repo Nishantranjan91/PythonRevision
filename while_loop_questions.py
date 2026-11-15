@@ -29,16 +29,30 @@
 
 
 # Automorphic number 
-a = 5
-dup = a
-square = a**2
-count = 0 
-while a>0:
-    count = count+1
-    a = a//10
-    print(count)
-extract = square%(10**count)    
-if extract == dup:
-    print("your number is automorphic number")
-else:
-    print("sorry your number is not an automorphic number")    
+# a = 5
+# dup = a
+# square = a**2
+# count = 0 
+# while a>0:
+#     count = count+1
+#     a = a//10
+#     print(count)
+# extract = square%(10**count)    
+# if extract == dup:
+#     print("your number is automorphic number")
+# else:
+#     print("sorry your number is not an automorphic number")    
+
+
+
+# Reverse a Number Using a While Loop
+num = 12345
+reverse = 0
+
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num // 10
+
+print("Original Number:", 12345)
+print("Reversed Number:", reverse)
