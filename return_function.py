@@ -10,15 +10,26 @@
 
 
 # Function that checks if a number is even
-def is_even(number):
-    if number % 2 == 0:
-        return True
-    return False
+# def is_even(number):
+#     if number % 2 == 0:
+#         return True
+#     return False
 
-# Test
-num = 8
+# # Test
+# num = 8
 
-if is_even(num):
-    print(num, "is even")
-else:
-    print(num, "is odd")
+# if is_even(num):
+#     print(num, "is even")
+# else:
+#     print(num, "is odd")
+
+
+
+# Add Two Numbers
+def add(a, b):
+    result = a + b
+    return result
+
+answer = add(10, 20)
+
+print(answer)
