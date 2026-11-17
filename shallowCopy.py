@@ -51,12 +51,32 @@
 
 #Shallow copy with a nested list
 
-import copy
+# import copy
 
-original = [[1, 2], [3, 4]]
-copied = copy.copy(original)
+# original = [[1, 2], [3, 4]]
+# copied = copy.copy(original)
 
-copied[0][0] = 100
+# copied[0][0] = 100
 
-print("Original list:", original)
-print("Copied list:", copied)
+# print("Original list:", original)
+# print("Copied list:", copied)
+
+
+
+
+
+# Shallow Copy using copy() method
+# Original nested list
+original = [[10, 20], [30, 40], [50, 60]]
+
+# Creating shallow copy
+copied = original.copy()
+
+# Modifying the nested list
+copied[0][0] = 999
+
+# Adding a new element to the outer list
+copied.append([70, 80])
+
+print("Original List:", original)
+print("Copied List:", copied)
