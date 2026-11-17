@@ -67,16 +67,41 @@
 
 # Shallow Copy using copy() method
 # Original nested list
-original = [[10, 20], [30, 40], [50, 60]]
+# original = [[10, 20], [30, 40], [50, 60]]
+
+# # Creating shallow copy
+# copied = original.copy()
+
+# # Modifying the nested list
+# copied[0][0] = 999
+
+# # Adding a new element to the outer list
+# copied.append([70, 80])
+
+# print("Original List:", original)
+# print("Copied List:", copied)
+
+
+
+
+#Shallow Copy using copy module
+import copy
+
+# Original dictionary
+original = {
+    "name": "Rahul",
+    "marks": [85, 90, 95],
+    "city": "Patna"
+}
 
 # Creating shallow copy
-copied = original.copy()
+copied = copy.copy(original)
 
-# Modifying the nested list
-copied[0][0] = 999
+# Modifying nested list
+copied["marks"][0] = 100
 
-# Adding a new element to the outer list
-copied.append([70, 80])
+# Modifying outer dictionary
+copied["city"] = "Delhi"
 
-print("Original List:", original)
-print("Copied List:", copied)
+print("Original Dictionary:", original)
+print("Copied Dictionary:", copied)
