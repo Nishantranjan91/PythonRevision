@@ -26,10 +26,24 @@
 
 
 # Add Two Numbers
-def add(a, b):
-    result = a + b
-    return result
+# def add(a, b):
+#     result = a + b
+#     return result
 
-answer = add(10, 20)
+# answer = add(10, 20)
+
+# print(answer)
+
+
+
+
+# Check Even or Odd
+def check_number(num):
+    if num % 2 == 0:
+        return "Even Number"
+    else:
+        return "Odd Number"
+
+answer = check_number(7)
 
 print(answer)
