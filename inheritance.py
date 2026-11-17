@@ -82,26 +82,56 @@
 
 # Single Inheritance
 # Parent Class
-class Animal:
-    def eat(self):
-        print("Animal is eating")
+# class Animal:
+#     def eat(self):
+#         print("Animal is eating")
 
-    def sleep(self):
-        print("Animal is sleeping")
+#     def sleep(self):
+#         print("Animal is sleeping")
+
+
+# # Child Class
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog is barking")
+
+
+# # Creating object
+# d = Dog()
+
+# # Calling parent class methods
+# d.eat()
+# d.sleep()
+
+# # Calling child class method
+# d.bark()
+
+
+
+
+# Multilevel Inheritance
+# Grandparent Class
+class Person:
+    def show_name(self):
+        print("Name: Rahul")
+
+
+# Parent Class
+class Student(Person):
+    def show_course(self):
+        print("Course: Python Programming")
 
 
 # Child Class
-class Dog(Animal):
-    def bark(self):
-        print("Dog is barking")
+class Developer(Student):
+    def show_role(self):
+        print("Role: Python Developer")
 
 
 # Creating object
-d = Dog()
+d = Developer()
 
-# Calling parent class methods
-d.eat()
-d.sleep()
-
-# Calling child class method
-d.bark()
+# Calling methods from all three classes
+d.show_name()
+d.show_course()
+d.show_role()
