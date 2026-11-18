@@ -19,13 +19,29 @@
 
 
 # emove a specific key
+# student = {
+#     "name": "Nishant",
+#     "age": 22,
+#     "course": "Python"
+# }
+
+# result = student.pop("age")
+
+# print(result)
+# print(student)
+
+
+
+
+
+# Remove a key with a default value
 student = {
     "name": "Nishant",
     "age": 22,
     "course": "Python"
 }
 
-result = student.pop("age")
+result = student.pop("city", "Not Found")
 
 print(result)
 print(student)
