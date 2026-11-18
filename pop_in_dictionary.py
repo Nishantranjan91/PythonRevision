@@ -12,6 +12,20 @@
 
 
 
-a = {10:100,20:200,30:300,40:400}
-popped = a.popitem()
-print(popped)
+# a = {10:100,20:200,30:300,40:400}
+# popped = a.popitem()
+# print(popped)
+
+
+
+# emove a specific key
+student = {
+    "name": "Nishant",
+    "age": 22,
+    "course": "Python"
+}
+
+result = student.pop("age")
+
+print(result)
+print(student)
