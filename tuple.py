@@ -77,11 +77,26 @@ student = ("Nishant", 22, "Python", 85.5)
 
 
 # Count the occurrence of each element in a tuple
-fruits = ("apple", "banana", "apple", "orange",
-          "banana", "apple")
+# fruits = ("apple", "banana", "apple", "orange",
+#           "banana", "apple")
 
-unique_fruits = set(fruits)
+# unique_fruits = set(fruits)
 
-for fruit in unique_fruits:
-    count = fruits.count(fruit)
-    print(fruit, ":", count)
+# for fruit in unique_fruits:
+#     count = fruits.count(fruit)
+#     print(fruit, ":", count)
+
+
+
+
+
+# Find the second-largest number in a tuple
+numbers = (10, 45, 23, 89, 67, 89, 34)
+
+unique_numbers = set(numbers)
+
+sorted_numbers = sorted(unique_numbers)
+
+second_largest = sorted_numbers[-2]
+
+print("Second Largest Number:", second_largest)
