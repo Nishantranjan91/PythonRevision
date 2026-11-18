@@ -29,6 +29,17 @@
 num = 25
 square = num * num
 
+# if str(square).endswith(str(num)):
+#     print("Automorphic Number")
+# else:
+#     print("Not an Automorphic Number")
+
+
+
+# Check whether 5 is an Automorphic Number
+num = 5
+square = num * num
+
 if str(square).endswith(str(num)):
     print("Automorphic Number")
 else:
