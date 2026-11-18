@@ -64,10 +64,24 @@ student = ("Nishant", 22, "Python", 85.5)
 
 
 # Tuple Packing and Unpacking
-student = ("Rahul", 21, "Computer Science")
+# student = ("Rahul", 21, "Computer Science")
 
-name, age, course = student
+# name, age, course = student
 
-print("Name:", name)
-print("Age:", age)
-print("Course:", course)
+# print("Name:", name)
+# print("Age:", age)
+# print("Course:", course)
+
+
+
+
+
+# Count the occurrence of each element in a tuple
+fruits = ("apple", "banana", "apple", "orange",
+          "banana", "apple")
+
+unique_fruits = set(fruits)
+
+for fruit in unique_fruits:
+    count = fruits.count(fruit)
+    print(fruit, ":", count)
