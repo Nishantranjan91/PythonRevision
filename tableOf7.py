@@ -25,8 +25,15 @@ i = 1
 
 
 # Using a function
-def table():
-    for i in range(1, 11):
-        print(f"7 x {i} = {7 * i}")
+# def table():
+#     for i in range(1, 11):
+#         print(f"7 x {i} = {7 * i}")
 
-table()
+# table()
+
+
+
+
+
+# Using list comprehension
+[print(f"7 x {i} = {7 * i}") for i in range(1, 11)]
