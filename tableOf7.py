@@ -36,4 +36,14 @@ i = 1
 
 
 # Using list comprehension
-[print(f"7 x {i} = {7 * i}") for i in range(1, 11)]
+# [print(f"7 x {i} = {7 * i}") for i in range(1, 11)]
+
+
+
+
+# Using a list and for loop
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for i in numbers:
+    result = 7 * i
+    print(f"7 x {i} = {result}")
