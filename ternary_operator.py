@@ -35,9 +35,20 @@
 
 
 # Find the Greater Number
-a = 20
-b = 15
+# a = 20
+# b = 15
 
-result = a if a > b else b
+# result = a if a > b else b
+
+# print(result)
+
+
+
+
+
+# Check Voting Eligibility
+age = 17
+
+result = "Eligible" if age >= 18 else "Not Eligible"
 
 print(result)
