@@ -24,8 +24,20 @@
 
 
 # Check Positive or Negative
-num = -5
+# num = -5
 
-result = "Positive" if num > 0 else "Negative"
+# result = "Positive" if num > 0 else "Negative"
+
+# print(result)
+
+
+
+
+
+# Find the Greater Number
+a = 20
+b = 15
+
+result = a if a > b else b
 
 print(result)
