@@ -58,8 +58,21 @@
 
 
 # Check Pass or Fail
-marks = 45
+# marks = 45
 
-result = "Pass" if marks >= 40 else "Fail"
+# result = "Pass" if marks >= 40 else "Fail"
+
+# print(result)
+
+
+
+
+
+# Find the Greatest Among Three Numbers
+a = 10
+b = 25
+c = 15
+
+result = a if a > b and a > c else (b if b > c else c)
 
 print(result)
