@@ -47,8 +47,19 @@
 
 
 # Check Voting Eligibility
-age = 17
+# age = 17
 
-result = "Eligible" if age >= 18 else "Not Eligible"
+# result = "Eligible" if age >= 18 else "Not Eligible"
+
+# print(result)
+
+
+
+
+
+# Check Pass or Fail
+marks = 45
+
+result = "Pass" if marks >= 40 else "Fail"
 
 print(result)
