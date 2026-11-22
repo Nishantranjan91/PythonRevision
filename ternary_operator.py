@@ -69,10 +69,20 @@
 
 
 # Find the Greatest Among Three Numbers
-a = 10
-b = 25
-c = 15
+# a = 10
+# b = 25
+# c = 15
 
-result = a if a > b and a > c else (b if b > c else c)
+# result = a if a > b and a > c else (b if b > c else c)
+
+# print(result)
+
+
+
+
+# Check Positive, Negative or Zero
+num = 0
+
+result = "Positive" if num > 0 else ("Negative" if num < 0 else "Zero")
 
 print(result)
