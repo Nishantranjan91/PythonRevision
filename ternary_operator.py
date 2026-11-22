@@ -81,8 +81,18 @@
 
 
 # Check Positive, Negative or Zero
-num = 0
+# num = 0
 
-result = "Positive" if num > 0 else ("Negative" if num < 0 else "Zero")
+# result = "Positive" if num > 0 else ("Negative" if num < 0 else "Zero")
 
-print(result)
+# print(result)
+
+
+
+
+# Assign Grade Based on Marks
+marks = 85
+
+grade = "A" if marks >= 90 else ("B" if marks >= 75 else ("C" if marks >= 50 else "Fail"))
+
+print(grade)
