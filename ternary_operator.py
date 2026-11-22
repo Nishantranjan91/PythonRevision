@@ -112,11 +112,24 @@
 
 
 # Calculate Discount
-price = 2000
+# price = 2000
 
-discount = price * 0.20 if price >= 1000 else price * 0.10
+# discount = price * 0.20 if price >= 1000 else price * 0.10
 
-final_price = price - discount
+# final_price = price - discount
 
-print("Discount:", discount)
-print("Final Price:", final_price)
+# print("Discount:", discount)
+# print("Final Price:", final_price)
+
+
+
+
+
+# Find the Smallest Among Three Numbers
+a = 15
+b = 10
+c = 5
+
+result = a if a < b and a < c else (b if b < c else c)
+
+print(result)
