@@ -91,8 +91,18 @@
 
 
 # Assign Grade Based on Marks
-marks = 85
+# marks = 85
 
-grade = "A" if marks >= 90 else ("B" if marks >= 75 else ("C" if marks >= 50 else "Fail"))
+# grade = "A" if marks >= 90 else ("B" if marks >= 75 else ("C" if marks >= 50 else "Fail"))
 
-print(grade)
+# print(grade)
+
+
+
+
+# Check Leap Year
+year = 2024
+
+result = "Leap Year" if (year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)) else "Not Leap Year"
+
+print(result)
