@@ -101,8 +101,22 @@
 
 
 # Check Leap Year
-year = 2024
+# year = 2024
 
-result = "Leap Year" if (year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)) else "Not Leap Year"
+# result = "Leap Year" if (year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)) else "Not Leap Year"
 
-print(result)
+# print(result)
+
+
+
+
+
+# Calculate Discount
+price = 2000
+
+discount = price * 0.20 if price >= 1000 else price * 0.10
+
+final_price = price - discount
+
+print("Discount:", discount)
+print("Final Price:", final_price)
