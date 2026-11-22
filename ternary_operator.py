@@ -126,10 +126,23 @@
 
 
 # Find the Smallest Among Three Numbers
-a = 15
-b = 10
-c = 5
+# a = 15
+# b = 10
+# c = 5
 
-result = a if a < b and a < c else (b if b < c else c)
+# result = a if a < b and a < c else (b if b < c else c)
 
-print(result)
+# print(result)
+
+
+
+
+
+# Electricity Bill Calculation
+units = 250
+
+rate = 5 if units <= 100 else (7 if units <= 200 else 10)
+
+bill = units * rate
+
+print("Electricity Bill:", bill)
