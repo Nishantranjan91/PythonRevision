@@ -164,9 +164,25 @@
 
 
 
-# Check Number Divisibility
-num = 15
+# # Check Number Divisibility
+# num = 15
 
-result = "Divisible by both" if num % 3 == 0 and num % 5 == 0 else ("Divisible by 3" if num % 3 == 0 else ("Divisible by 5" if num % 5 == 0 else "Not Divisible"))
+# result = "Divisible by both" if num % 3 == 0 and num % 5 == 0 else ("Divisible by 3" if num % 3 == 0 else ("Divisible by 5" if num % 5 == 0 else "Not Divisible"))
+
+# print(result)
+
+
+
+
+# Student Result with Multiple Conditions
+marks = 78
+
+result = (
+    "Excellent" if marks >= 90 else
+    "Very Good" if marks >= 75 else
+    "Good" if marks >= 60 else
+    "Pass" if marks >= 40 else
+    "Fail"
+)
 
 print(result)
