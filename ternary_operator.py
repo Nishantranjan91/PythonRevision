@@ -139,10 +139,23 @@
 
 
 # Electricity Bill Calculation
-units = 250
+# units = 250
 
-rate = 5 if units <= 100 else (7 if units <= 200 else 10)
+# rate = 5 if units <= 100 else (7 if units <= 200 else 10)
 
-bill = units * rate
+# bill = units * rate
 
-print("Electricity Bill:", bill)
+# print("Electricity Bill:", bill)
+
+
+
+
+
+
+# Login Authentication
+username = "admin"
+password = "12345"
+
+result = "Login Successful" if username == "admin" and password == "12345" else "Invalid Credentials"
+
+print(result)
