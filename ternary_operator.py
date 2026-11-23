@@ -153,9 +153,20 @@
 
 
 # Login Authentication
-username = "admin"
-password = "12345"
+# username = "admin"
+# password = "12345"
 
-result = "Login Successful" if username == "admin" and password == "12345" else "Invalid Credentials"
+# result = "Login Successful" if username == "admin" and password == "12345" else "Invalid Credentials"
+
+# print(result)
+
+
+
+
+
+# Check Number Divisibility
+num = 15
+
+result = "Divisible by both" if num % 3 == 0 and num % 5 == 0 else ("Divisible by 3" if num % 3 == 0 else ("Divisible by 5" if num % 5 == 0 else "Not Divisible"))
 
 print(result)
