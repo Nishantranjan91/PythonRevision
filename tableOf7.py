@@ -42,8 +42,12 @@ i = 1
 
 
 # Using a list and for loop
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-for i in numbers:
-    result = 7 * i
-    print(f"7 x {i} = {result}")
+# for i in numbers:
+#     result = 7 * i
+#     print(f"7 x {i} = {result}")
+
+
+
+

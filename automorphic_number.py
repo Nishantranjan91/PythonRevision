@@ -49,11 +49,11 @@ square = num * num
 
 
 
-# Check whether 25 is an Automorphic Number
-num = 25
-square = num * num
+# # Check whether 25 is an Automorphic Number
+# num = 25
+# square = num * num
 
-if str(square).endswith(str(num)):
-    print("Automorphic Number")
-else:
-    print("Not an Automorphic Number")
+# if str(square).endswith(str(num)):
+#     print("Automorphic Number")
+# else:
+#     print("Not an Automorphic Number")
