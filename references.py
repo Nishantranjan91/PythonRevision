@@ -53,13 +53,28 @@
 
 
 # Shallow Copy
-import copy
+# import copy
 
-original = [[1, 2], [3, 4]]
+# original = [[1, 2], [3, 4]]
 
-new_list = copy.copy(original)
+# new_list = copy.copy(original)
 
-new_list[0].append(100)
+# new_list[0].append(100)
 
-print("Original:", original)
-print("New List:", new_list)
+# print("Original:", original)
+# print("New List:", new_list)
+
+
+
+
+
+
+# Function and Mutable References
+def update_list(numbers):
+    numbers.append(500)
+
+my_list = [100, 200, 300]
+
+update_list(my_list)
+
+print(my_list)
