@@ -70,11 +70,31 @@
 
 
 # Function and Mutable References
-def update_list(numbers):
-    numbers.append(500)
+# def update_list(numbers):
+#     numbers.append(500)
 
-my_list = [100, 200, 300]
+# my_list = [100, 200, 300]
 
-update_list(my_list)
+# update_list(my_list)
 
-print(my_list)
+# print(my_list)
+
+
+
+
+# Deep Copy vs Shallow Copy
+import copy
+
+original = {
+    "name": "Nishant",
+    "skills": ["Python", "SQL"]
+}
+
+shallow = copy.copy(original)
+deep = copy.deepcopy(original)
+
+original["skills"].append("Power BI")
+
+print("Original:", original)
+print("Shallow:", shallow)
+print("Deep:", deep)
