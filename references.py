@@ -104,10 +104,29 @@
 
 
 # Mutable Default Argument Problem
-def add_student(name, students=[]):
-    students.append(name)
-    return students
+# def add_student(name, students=[]):
+#     students.append(name)
+#     return students
 
-print(add_student("Rahul"))
-print(add_student("Nidhi"))
-print(add_student("Nishant"))
+# print(add_student("Rahul"))
+# print(add_student("Nidhi"))
+# print(add_student("Nishant"))
+
+
+
+
+# References Inside Nested Dictionaries
+student1 = {
+    "name": "Rahul",
+    "marks": {
+        "Python": 85,
+        "SQL": 90
+    }
+}
+
+student2 = student1.copy()
+
+student2["marks"]["Python"] = 95
+
+print("Student 1:", student1)
+print("Student 2:", student2)
