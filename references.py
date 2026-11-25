@@ -41,10 +41,25 @@
 
 
 # Comparing is and ==
-a = [1, 2, 3]
-b = [1, 2, 3]
-c = a
+# a = [1, 2, 3]
+# b = [1, 2, 3]
+# c = a
 
-print(a == b)
-print(a is b)
-print(a is c)
+# print(a == b)
+# print(a is b)
+# print(a is c)
+
+
+
+
+# Shallow Copy
+import copy
+
+original = [[1, 2], [3, 4]]
+
+new_list = copy.copy(original)
+
+new_list[0].append(100)
+
+print("Original:", original)
+print("New List:", new_list)
