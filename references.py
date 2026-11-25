@@ -28,10 +28,23 @@
 
 
 # ultiple variables referencing the same list
-list1 = [10, 20, 30]
-list2 = list1
+# list1 = [10, 20, 30]
+# list2 = list1
 
-list2.append(40)
+# list2.append(40)
 
-print("List 1:", list1)
-print("List 2:", list2)
+# print("List 1:", list1)
+# print("List 2:", list2)
+
+
+
+
+
+# Comparing is and ==
+a = [1, 2, 3]
+b = [1, 2, 3]
+c = a
+
+print(a == b)
+print(a is b)
+print(a is c)
