@@ -83,18 +83,31 @@
 
 
 # Deep Copy vs Shallow Copy
-import copy
+# import copy
 
-original = {
-    "name": "Nishant",
-    "skills": ["Python", "SQL"]
-}
+# original = {
+#     "name": "Nishant",
+#     "skills": ["Python", "SQL"]
+# }
 
-shallow = copy.copy(original)
-deep = copy.deepcopy(original)
+# shallow = copy.copy(original)
+# deep = copy.deepcopy(original)
 
-original["skills"].append("Power BI")
+# original["skills"].append("Power BI")
 
-print("Original:", original)
-print("Shallow:", shallow)
-print("Deep:", deep)
+# print("Original:", original)
+# print("Shallow:", shallow)
+# print("Deep:", deep)
+
+
+
+
+
+# Mutable Default Argument Problem
+def add_student(name, students=[]):
+    students.append(name)
+    return students
+
+print(add_student("Rahul"))
+print(add_student("Nidhi"))
+print(add_student("Nishant"))
