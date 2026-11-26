@@ -66,12 +66,32 @@
 
 
 # Find all duplicate numbers in a list without printing duplicates multiple times
-numbers = [10, 20, 30, 20, 40, 10, 50, 30]
+# numbers = [10, 20, 30, 20, 40, 10, 50, 30]
 
-duplicates = []
+# duplicates = []
 
-for num in numbers:
-    if numbers.count(num) > 1 and num not in duplicates:
-        duplicates.append(num)
+# for num in numbers:
+#     if numbers.count(num) > 1 and num not in duplicates:
+#         duplicates.append(num)
 
-print("Duplicate elements:", duplicates)
+# print("Duplicate elements:", duplicates)
+
+
+
+
+
+# Search for a student's name regardless of uppercase or lowercase letters.
+students = ["Rahul", "Nishant", "Amit", "Priya", "Nidhi"]
+
+target = "nishant"
+
+found = False
+
+for name in students:
+    if name.lower() == target.lower():
+        found = True
+        print("Student found:", name)
+        break
+
+if not found:
+    print("Student not found")
