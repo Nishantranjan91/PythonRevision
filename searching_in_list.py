@@ -11,14 +11,33 @@
 
 
 # Find all positions where the number 20 appears in a list.
-numbers = [10, 20, 30, 20, 40, 20, 50]
+# numbers = [10, 20, 30, 20, 40, 20, 50]
 
-target = 20
+# target = 20
 
-positions = []
+# positions = []
 
-for i in range(len(numbers)):
-    if numbers[i] == target:
-        positions.append(i)
+# for i in range(len(numbers)):
+#     if numbers[i] == target:
+#         positions.append(i)
 
-print("Positions:", positions)
+# print("Positions:", positions)
+
+
+
+
+# Find the second largest unique number without using sort().
+numbers = [45, 12, 78, 34, 89, 78, 56]
+
+largest = float('-inf')
+second_largest = float('-inf')
+
+for num in numbers:
+    if num > largest:
+        second_largest = largest
+        largest = num
+
+    elif num > second_largest and num != largest:
+        second_largest = num
+
+print("Second largest:", second_largest)
