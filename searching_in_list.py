@@ -46,17 +46,32 @@
 
 
 # Search for 35 in a list and display whether it exists.
-numbers = [12, 25, 35, 48, 56, 67]
+# numbers = [12, 25, 35, 48, 56, 67]
 
-target = 35
-found = False
+# target = 35
+# found = False
+
+# for num in numbers:
+#     if num == target:
+#         found = True
+#         break
+
+# if found:
+#     print("Element found!")
+# else:
+#     print("Element not found!")
+
+
+
+
+
+# Find all duplicate numbers in a list without printing duplicates multiple times
+numbers = [10, 20, 30, 20, 40, 10, 50, 30]
+
+duplicates = []
 
 for num in numbers:
-    if num == target:
-        found = True
-        break
+    if numbers.count(num) > 1 and num not in duplicates:
+        duplicates.append(num)
 
-if found:
-    print("Element found!")
-else:
-    print("Element not found!")
+print("Duplicate elements:", duplicates)
