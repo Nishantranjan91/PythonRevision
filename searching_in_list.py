@@ -27,17 +27,36 @@
 
 
 # Find the second largest unique number without using sort().
-numbers = [45, 12, 78, 34, 89, 78, 56]
+# numbers = [45, 12, 78, 34, 89, 78, 56]
 
-largest = float('-inf')
-second_largest = float('-inf')
+# largest = float('-inf')
+# second_largest = float('-inf')
+
+# for num in numbers:
+#     if num > largest:
+#         second_largest = largest
+#         largest = num
+
+#     elif num > second_largest and num != largest:
+#         second_largest = num
+
+# print("Second largest:", second_largest)
+
+
+
+
+# Search for 35 in a list and display whether it exists.
+numbers = [12, 25, 35, 48, 56, 67]
+
+target = 35
+found = False
 
 for num in numbers:
-    if num > largest:
-        second_largest = largest
-        largest = num
+    if num == target:
+        found = True
+        break
 
-    elif num > second_largest and num != largest:
-        second_largest = num
-
-print("Second largest:", second_largest)
+if found:
+    print("Element found!")
+else:
+    print("Element not found!")
