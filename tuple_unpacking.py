@@ -17,10 +17,22 @@
 
 
 # Tuple Unpacking with Numbers
-numbers = (10, 20, 30)
+# numbers = (10, 20, 30)
 
-a, b, c = numbers
+# a, b, c = numbers
 
-print("A =", a)
-print("B =", b)
-print("C =", c)
+# print("A =", a)
+# print("B =", b)
+# print("C =", c)
+
+
+
+# Tuple Unpacking in a Loop
+students = [
+    ("Rahul", 85),
+    ("Nishant", 90),
+    ("Amit", 78)
+]
+
+for name, marks in students:
+    print(name, "scored", marks)
