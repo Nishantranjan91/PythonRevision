@@ -5,10 +5,22 @@
 
 
 # Basic Tuple Unpacking
-student = ("Nishant", 22, "Python")
+# student = ("Nishant", 22, "Python")
 
-name, age, course = student
+# name, age, course = student
 
-print(name)
-print(age)
-print(course)
+# print(name)
+# print(age)
+# print(course)
+
+
+
+
+# Tuple Unpacking with Numbers
+numbers = (10, 20, 30)
+
+a, b, c = numbers
+
+print("A =", a)
+print("B =", b)
+print("C =", c)
