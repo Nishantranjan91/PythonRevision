@@ -28,11 +28,24 @@
 
 
 # Tuple Unpacking in a Loop
-students = [
-    ("Rahul", 85),
-    ("Nishant", 90),
-    ("Amit", 78)
-]
+# students = [
+#     ("Rahul", 85),
+#     ("Nishant", 90),
+#     ("Amit", 78)
+# ]
 
-for name, marks in students:
-    print(name, "scored", marks)
+# for name, marks in students:
+#     print(name, "scored", marks)
+
+
+
+
+
+# Swapping Two Variables
+a = 10
+b = 20
+
+a, b = b, a
+
+print("a =", a)
+print("b =", b)
