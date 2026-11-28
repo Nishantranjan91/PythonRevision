@@ -42,10 +42,24 @@
 
 
 # Swapping Two Variables
-a = 10
-b = 20
+# a = 10
+# b = 20
 
-a, b = b, a
+# a, b = b, a
+
+# print("a =", a)
+# print("b =", b)
+
+
+
+
+
+
+# Tuple Unpacking Using * (Asterisk)
+numbers = (10, 20, 30, 40, 50)
+
+a, *b, c = numbers
 
 print("a =", a)
 print("b =", b)
+print("c =", c)
